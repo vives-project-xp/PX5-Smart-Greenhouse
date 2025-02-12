@@ -12,7 +12,7 @@
 Sensoren die zullen worden gebruikt in ons project:
 
 - **Temperatuur, luchtvochtigheids & luchtdruk sensor**: Deze sensor hebben we nodig om de temperatuur en luchtvochtigheid te meten maar dit is een 3 in 1 sensor waardoor we de luchtdruk er eigenlijk nog als bonus bij krijgen.
-- **CO^2^ sensor**: Meet de hoeveelheid CO^2^ in de serre uitgedrukt in ppm.
+- **CO₂ sensor**: Meet de hoeveelheid CO₂ in de serre uitgedrukt in ppm.
 - **Lichtintensiteitssensor**: Meet de lichtsterkte in de serre in LUX.
 - **Bodemvochtigheidssensor**: Meet hoe vochtig de grond is van de planten in de serre.
 ## Team
