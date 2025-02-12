@@ -15,6 +15,9 @@ Sensoren die zullen worden gebruikt in ons project:
 - **CO₂ sensor**: Meet de hoeveelheid CO₂ in de serre uitgedrukt in ppm.
 - **Lichtintensiteitssensor**: Meet de lichtsterkte in de serre in LUX.
 - **Bodemvochtigheidssensor**: Meet hoe vochtig de grond is van de planten in de serre.
+
+## Microcontroller
+
 ## Team
 Het team van Smart Greenhouse bestaat uit:
 - [Didier Vereecke](https://github.com/MrI2C) • Projectleader
