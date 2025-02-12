@@ -20,6 +20,6 @@ Een iets ruimere uitleg over de sensoren die worden gebruikt in dit project:
 ## Uitgebreide Luchtvochtigheidssensor
 ![bme680-module-gas-temperature-pressure-and-humidity-sensor-with-level-converter-600x600 (1)](https://github.com/user-attachments/assets/362c3337-7cb9-4ab1-9d78-e8174fd1574c)
 
--**Uitleg**: Ik heb ook nog een sensor gevonden die naast Temperatuur, Luchtvochtig en luchtdruk ook nog CO2 kan meten. kan Temperatuur van  -40°C tot 85°C meten, luchtvochtigheid van 0% tot 100% RH  en luchtdruk van 300 hPa tot 1100 hPa meten. Deze sensor werkt op een voeding van 3,3V en kan communiceren via I2C en SPI.
+-**Uitleg**: Ik heb ook nog een sensor gevonden(BME680) die naast Temperatuur, Luchtvochtig en luchtdruk ook nog CO2 kan meten. kan Temperatuur van  -40°C tot 85°C meten, luchtvochtigheid van 0% tot 100% RH  en luchtdruk van 300 hPa tot 1100 hPa meten. Deze sensor werkt op een voeding van 3,3V en kan communiceren via I2C en SPI.
 De prijs van deze sensor is €11
 
