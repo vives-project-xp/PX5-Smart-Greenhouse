@@ -1,3 +1,31 @@
 # PX5 Smart Greenhouse
 
-Gewoon een tekstfile
+## Inhoud
+
+- [PX5 Smart Greenhouse](#px5-smart-greenhouse)
+    - [Inhoudsopgave](#inhoud)
+    - [Sensoren](#sensoren)
+    - [Team](#team)
+
+## Doel
+## Sensoren
+Sensoren die zullen worden gebruikt in ons project:
+
+- **Temperatuur, luchtvochtigheids & luchtdruk sensor**: Deze sensor hebben we nodig om de temperatuur en luchtvochtigheid te meten maar dit is een 3 in 1 sensor waardoor we de luchtdruk er eigenlijk nog als bonus bij krijgen.
+- **CO^2^ sensor**: Meet de hoeveelheid CO^2^ in de serre uitgedrukt in ppm.
+- **Lichtintensiteitssensor**: Meet de lichtsterkte in de serre in LUX.
+- **Bodemvochtigheidssensor**: Meet hoe vochtig de grond is van de planten in de serre.
+## Team
+Het team van Smart Greenhouse bestaat uit:
+- [Didier Vereecke](https://github.com/MrI2C) • Projectleader
+- [Alexander D'hoore](https://github.com/AlexanderDhoore) • Scrum-master
+- [Juha Schacht](https://github.com/Jschacht06)
+- [Geal Docdocil](https://github.com/Gdoc141)
+- [Ewoud Bouttelisier](https://github.com/EwoudBoutje)
+- [Danaë Zutterman](https://github.com/Danaezutterman)
+- [Tyago D'huyvetter](https://github.com/TyagoD)
+- [Xander De Vos](https://github.com/xanderdv)
+- [MaartenAudenaert](https://github.com/MaartenAudenaert)
+
+
+
