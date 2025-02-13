@@ -1,5 +1,11 @@
-# ESP32
+# Microcontroller
+![ESP32](./images/esp32.webp)
 
+We zullen een ESP32 gebruiken als microcontroller specifiek de **ESP32 USB-C WROOM 4Mb Devkit V1**. We hebben gekozen voor ESP door de built-in wifi ook omdat deze in ultra-low power mode kan runnen wat zeer handig is voor ons aangezien het project afhankelijk is van een batterij. Ook kunnen we gebruik maken van de Home Assistant integratie ESPhome waarmee we gemakkelijk de sensoren kunnen gebruiken in home assistant.
+# Expansion board
+![ESP32](./images/esp32-expansion.webp)
+
+Om de sensoren makkelijk te kunnen aansluiten zullen we de ESP32 bevestigen op een expansion board en dan kunnen we makkelijk alle sensoren bevestigen aan dit expansion board. Dit zorgt er ook voor dat we makkelijk een sensor kunnen vervangen indien dit nodig is.
 # Sensoren
 Een iets ruimere uitleg over de sensoren die worden gebruikt in dit project:
 
@@ -36,6 +42,7 @@ Een iets ruimere uitleg over de sensoren die worden gebruikt in dit project:
     - [Documentatie](https://esphome.io/components/sensor/bh1750.html)
 
 ## Bodemvochtigheidssensor
+
 - **Sensor**: Adafruit STEMMA Soil Sensor - I2C Capacitive Moisture Sensor
 ![Bodemvochtigheidssensor](./images/Adafruit%20STEMMA%20Soil%20Sensor%20-%20I2C%20Capacitive%20Moisture%20Sensor.jpg)
 
