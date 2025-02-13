@@ -5,7 +5,7 @@
 - [PX5 Smart Greenhouse](#px5-smart-greenhouse)
     - [Inhoudsopgave](#inhoud)
     - [Sensoren](#sensoren)
-    - [Microcontroller](#microcontroller)
+    - [Hardware](#Hardware)
     - [Team](#team)
 
 
@@ -18,7 +18,15 @@ Sensoren die zullen worden gebruikt in ons project:
 - **Lichtintensiteitssensor**: Meet de lichtsterkte in de serre in LUX.
 - **Bodemvochtigheidssensor**: Meet hoe vochtig de grond is van de planten in de serre.
 
-## Microcontroller
+## Hardware
+
+### Main computer
+- **Raspberry PI 5 8GB**
+- **OS**: Home Assistant OS 14.2
+- **Waarom?**: We hebben gekozen voor een Raspberry PI omdat deze een laag verbruik heeft ~2-7 watt.
+
+### Microcontroller
+- **ESP32 USB-C WROOM 4Mb Devkit V1**
 
 ## Team
 Het team van Smart Greenhouse bestaat uit:
@@ -32,5 +40,13 @@ Het team van Smart Greenhouse bestaat uit:
 - [Xander De Vos](https://github.com/xanderdv)
 - [MaartenAudenaert](https://github.com/MaartenAudenaert)
 
+# Meer uitleg nodig?
+
+## Alle info over Hardware && sensoren
+- [Hardware](/Hardware/README.md)
+## Hoe krijgen we internet in een afgelegen serre?
+- [Netwerken](/Networking/README.md)
+## Codevoorbeelden && Setup Home Asssistant
+- [Software](/Software/README.md)
 
 
