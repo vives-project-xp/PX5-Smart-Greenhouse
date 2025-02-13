@@ -1,5 +1,5 @@
 # PX5 Smart Greenhouse
-
+- ![PX5 Smart Greenhouse](/Hardware/images/Smart_Greenhouse.png)
 ## Inhoud
 
 - [PX5 Smart Greenhouse](#px5-smart-greenhouse)
@@ -47,7 +47,7 @@ Het team van Smart Greenhouse bestaat uit:
 - [Hardware](/Hardware)
 ## Hoe krijgen we internet in een afgelegen serre?
 - [Netwerken](/Networking)
-## Codevoorbeelden && Setup Home Asssistant
+## Codevoorbeelden & Setup Home Asssistant
 - [Software](/Software)
 
 
