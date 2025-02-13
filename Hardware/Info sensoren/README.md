@@ -1,11 +1,15 @@
 # Microcontroller
 ![ESP32](./images/esp32.webp)
 
-We zullen een ESP32 gebruiken als microcontroller specifiek de **ESP32 USB-C WROOM 4Mb Devkit V1**. We hebben gekozen voor ESP door de built-in wifi ook omdat deze in ultra-low power mode kan runnen wat zeer handig is voor ons aangezien het project afhankelijk is van een batterij. Ook kunnen we gebruik maken van de Home Assistant integratie ESPhome waarmee we gemakkelijk de sensoren kunnen gebruiken in home assistant.
+- **Uitleg**: We zullen een ESP32 gebruiken als microcontroller specifiek de **ESP32 USB-C WROOM 4Mb Devkit V1**. We hebben gekozen voor ESP door de built-in wifi ook omdat deze in ultra-low power mode kan runnen wat zeer handig is voor ons aangezien het project afhankelijk is van een batterij. Ook kunnen we gebruik maken van de Home Assistant integratie ESPhome waarmee we gemakkelijk de sensoren kunnen gebruiken in home assistant.
+- **Bronnen**
+    - [Verkooppagina](https://www.otronic.nl/nl/esp32-wroom-4mb-devkit-v1-board-met-wifi-149997564.html)
 # Expansion board
 ![ESP32](./images/esp32-expansion.webp)
 
-Om de sensoren makkelijk te kunnen aansluiten zullen we de ESP32 bevestigen op een expansion board en dan kunnen we makkelijk alle sensoren bevestigen aan dit expansion board. Dit zorgt er ook voor dat we makkelijk een sensor kunnen vervangen indien dit nodig is.
+- **Uitleg**: Om de sensoren makkelijk te kunnen aansluiten zullen we de ESP32 bevestigen op een expansion board en dan kunnen we makkelijk alle sensoren bevestigen aan dit expansion board. Dit zorgt er ook voor dat we makkelijk een sensor kunnen vervangen indien dit nodig is.
+- **Bronnen**
+    - [Verkooppagina](https://www.benselectronics.nl/expansion-board-voor-esp32-30-pins.html?source=googlebase&srsltid=AfmBOoqOZic-FkrWAZkLAmij9ZJE66ZCVywAW0Yk6InpTt16UAgxtpYZG50&gQT=2)
 # Sensoren
 Een iets ruimere uitleg over de sensoren die worden gebruikt in dit project:
 
