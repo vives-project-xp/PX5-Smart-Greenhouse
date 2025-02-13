@@ -40,7 +40,7 @@ Het team van Smart Greenhouse bestaat uit:
 - [Danaë Zutterman](https://github.com/Danaezutterman)
 - [Tyago D'huyvetter](https://github.com/TyagoD)
 - [Xander De Vos](https://github.com/xanderdv)
-- [MaartenAudenaert](https://github.com/MaartenAudenaert)
+- [Maarten Audenaert](https://github.com/MaartenAudenaert)
 
 ## Meer uitleg nodig?
 
