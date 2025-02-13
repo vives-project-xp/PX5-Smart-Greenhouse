@@ -4,7 +4,8 @@
 ![POSTER](https://github.com/user-attachments/assets/7bd776ab-65aa-49a4-9189-553abdd3c387)
 ![Poster_Greenhouse](https://github.com/user-attachments/assets/de889dc3-7b60-4f10-858e-e27d7f468a81)
 #Poster
-![poster_Definitief](https://github.com/user-attachments/assets/94517928-9e9a-43b7-9d96-47a9fc3ec848)
+
+![Poster_V2](https://github.com/user-attachments/assets/5be201af-aae2-483e-92ef-3ee9a159543c)
 
 
 ## Inhoud
