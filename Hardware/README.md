@@ -5,7 +5,7 @@
 - **Bronnen**
     - [Verkooppagina](https://www.otronic.nl/nl/esp32-wroom-4mb-devkit-v1-board-met-wifi-149997564.html)
 # Expansion board
-![ESP32](./images/esp32-expansion.webp)
+![ESP32-Expansion](./images/esp32-expansion.webp)
 
 - **Uitleg**: Om de sensoren makkelijk te kunnen aansluiten zullen we de ESP32 bevestigen op een expansion board en dan kunnen we makkelijk alle sensoren bevestigen aan dit expansion board. Dit zorgt er ook voor dat we makkelijk een sensor kunnen vervangen indien dit nodig is.
 - **Bronnen**
@@ -48,6 +48,7 @@ Een iets ruimere uitleg over de sensoren die worden gebruikt in dit project:
 ## Bodemvochtigheidssensor
 
 - **Sensor**: Adafruit STEMMA Soil Sensor - I2C Capacitive Moisture Sensor
+
 ![Bodemvochtigheidssensor](./images/Adafruit%20STEMMA%20Soil%20Sensor%20-%20I2C%20Capacitive%20Moisture%20Sensor.jpg)
 
 - **Uitleg:** Deze sensor werkt als een condensator. Je hebt twee geleidende platen met daartussen een middenstof die een bepaalde diëlektrische constante heeft. In het geval van deze sensor is dat de grond van de planten. Hoe droger de grond, hoe lager de capaciteit. Hoe natter de grond, hoe hoger de capaciteit wordt. Zo berekent de sensor de bodemvochtigheid.
