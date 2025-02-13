@@ -7,6 +7,7 @@
     - [Sensoren](#sensoren)
     - [Hardware](#Hardware)
     - [Team](#team)
+- [Meer uitleg nodig?](#meer-uitleg-nodig)
 
 
 ## Doel
