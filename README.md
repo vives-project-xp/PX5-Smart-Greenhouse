@@ -1,5 +1,5 @@
 # PX5 Smart Greenhouse
-- ![PX5 Smart Greenhouse](/Hardware/images/Smart_Greenhouse.png)
+![PX5 Smart Greenhouse](/Hardware/images/Smart_Greenhouse.png)
 ## Inhoud
 
 - [PX5 Smart Greenhouse](#px5-smart-greenhouse)
@@ -11,6 +11,7 @@
 
 
 ## Doel
+- Het onderhoud van planten automatiseren en monitoren. Een bedrijf onrechtstreeks helpen serres te produceren die digitaal werkt.
 ## Sensoren
 Sensoren die zullen worden gebruikt in ons project:
 
@@ -24,7 +25,7 @@ Sensoren die zullen worden gebruikt in ons project:
 ### Main computer
 - **Raspberry PI 5 8GB**
 - **OS**: Home Assistant OS 14.2
-- **Waarom?**: We hebben gekozen voor een Raspberry PI omdat deze een laag verbruik heeft ~2-7 watt.
+- We hebben gekozen voor een Raspberry PI omdat deze een laag verbruik heeft ~2-7 watt.
 
 ### Microcontroller
 - **ESP32 USB-C WROOM 4Mb Devkit V1**
@@ -41,13 +42,13 @@ Het team van Smart Greenhouse bestaat uit:
 - [Xander De Vos](https://github.com/xanderdv)
 - [MaartenAudenaert](https://github.com/MaartenAudenaert)
 
-# Meer uitleg nodig?
+## Meer uitleg nodig?
 
-## Alle info over Hardware && sensoren
+### Alle info over Hardware && sensoren
 - [Hardware](/Hardware)
-## Hoe krijgen we internet in een afgelegen serre?
+### Hoe krijgen we internet in een afgelegen serre?
 - [Netwerken](/Networking)
-## Codevoorbeelden & Setup Home Asssistant
+### Codevoorbeelden & Setup Home Asssistant
 - [Software](/Software)
 
 
