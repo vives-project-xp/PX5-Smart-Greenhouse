@@ -34,7 +34,7 @@ Sensoren die zullen worden gebruikt in ons project:
 ### Main computer
 - **Raspberry PI 5 8GB**
 - **OS**: Home Assistant OS 14.2
-- We hebben gekozen voor een Raspberry PI omdat deze een laag verbruik heeft ~2-7 watt.
+- We hebben gekozen voor een Raspberry PI omdat deze een laag verbruik heeft ~2-7 watt. Home Assitant is ook geoptimaliseerd voor de Raspberry Pi en heeft de meeste docimentatie en community-ondersteuning.
 
 ### Microcontroller
 - **ESP32 USB-C WROOM 4Mb Devkit V1**

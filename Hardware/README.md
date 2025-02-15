@@ -1,3 +1,7 @@
+# Raspberry Pi
+- **Uitleg**: Voor dit project gaan we een..
+
+
 # Microcontroller
 ![ESP32](./images/esp32.webp)
 
