@@ -20,7 +20,7 @@
 
 
 ## Doel
-- Het onderhoud van planten onderhoud automatiseren en monitoren. Een bedrijf onrechtstreeks helpen serres te produceren die digitaal werkt.
+- Het onderhoud van planten automatiseren en monitoren. Een bedrijf onrechtstreeks helpen serres te produceren die digitaal werkt.
 ## Sensoren
 Sensoren die zullen worden gebruikt in ons project:
 
