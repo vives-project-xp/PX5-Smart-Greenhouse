@@ -1,4 +1,5 @@
 # PX5 Smart Greenhouse
+![PosterV4](https://github.com/user-attachments/assets/2254df03-5f4f-49b1-997d-323dfc2c898a)
 
 
 ## Inhoud
