@@ -1,17 +1,13 @@
 # PX5 Smart Greenhouse
-# Concepten
 ![Smart_Greenhouse](https://github.com/user-attachments/assets/28e8aaec-bc98-4638-95dd-935a334d9e96)
 
 ## Inhoud
-
-
 - [PX5 Smart Greenhouse](#px5-smart-greenhouse)
     - [Inhoudsopgave](#inhoud)
     - [Sensoren](#sensoren)
     - [Hardware](#Hardware)
     - [Team](#team)
 - [Meer uitleg nodig?](#meer-uitleg-nodig)
-
 
 ## Doel
 - Het onderhoud van planten automatiseren en monitoren. Een bedrijf onrechtstreeks helpen serres te produceren die digitaal werkt.
