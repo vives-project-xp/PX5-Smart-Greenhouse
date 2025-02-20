@@ -1,13 +1,6 @@
 # PX5 Smart Greenhouse
 # Concepten
 ![PX5 Smart Greenhouse](/Hardware/images/Smart_Greenhouse.png)
-![POSTER](https://github.com/user-attachments/assets/7bd776ab-65aa-49a4-9189-553abdd3c387)
-![Poster_Greenhouse](https://github.com/user-attachments/assets/de889dc3-7b60-4f10-858e-e27d7f468a81)
-#Poster
-
-![Poster V3](https://github.com/user-attachments/assets/34eaa290-13ab-4389-9311-ffae79a41bab)
-
-
 
 ## Inhoud
 
@@ -24,20 +17,13 @@
 ## Sensoren
 Sensoren die zullen worden gebruikt in ons project:
 
-- **Temperatuur, luchtvochtigheids & luchtdruk sensor**: Deze sensor hebben we nodig om de temperatuur en luchtvochtigheid te meten maar dit is een 3 in 1 sensor waardoor we de luchtdruk er eigenlijk nog als bonus bij krijgen.
-- **CO₂ sensor**: Meet de hoeveelheid CO₂ in de serre uitgedrukt in ppm.
-- **Lichtintensiteitssensor**: Meet de lichtsterkte in de serre in LUX.
-- **Bodemvochtigheidssensor**: Meet hoe vochtig de grond is van de planten in de serre.
-
+### Coming soon!
 ## Hardware
 
 ### Main computer
 - **Raspberry PI 5 8GB**
 - **OS**: Home Assistant OS 14.2
 - We hebben gekozen voor een Raspberry PI omdat deze een laag verbruik heeft ~2-7 watt. Home Assitant is ook geoptimaliseerd voor de Raspberry Pi en heeft de meeste docimentatie en community-ondersteuning.
-
-### Microcontroller
-- **ESP32 USB-C WROOM 4Mb Devkit V1**
 
 ## Team
 Het team van Smart Greenhouse bestaat uit:
