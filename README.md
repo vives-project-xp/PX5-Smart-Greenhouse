@@ -1,5 +1,5 @@
 # PX5 Smart Greenhouse
-![Smart_Greenhouse](https://github.com/user-attachments/assets/28e8aaec-bc98-4638-95dd-935a334d9e96)
+
 
 ## Inhoud
 - [PX5 Smart Greenhouse](#px5-smart-greenhouse)
