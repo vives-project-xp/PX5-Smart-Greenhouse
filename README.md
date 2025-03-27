@@ -22,7 +22,7 @@ Het team van Smart Greenhouse bestaat uit:
 
 ## Meer uitleg nodig?
 
-### Alle info over Hardware && sensoren
+### Alle info over hardware && sensoren
 - [Hardware](/Hardware)
 ### Hoe krijgen we internet in een afgelegen serre?
 - [Netwerken](/Networking)
