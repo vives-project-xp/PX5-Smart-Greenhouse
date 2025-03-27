@@ -273,4 +273,73 @@ Wil je jouw dashboard bekijken op je telefoon of tablet?
 - Gebruik **Nabu Casa**, **DuckDNS** of **Tailscale** voor externe toegang.
 
 ---
+### ESP32-C6 Zigbee
+#### 1. Wat?
+De ESP32-C6 is een uitstekende keuze voor Home Assistant, dankzij de ondersteuning voor Wi-Fi 6, Bluetooth 5 (LE), Zigbee en Thread. Hierdoor kan het werken als een sensor/aandrijving binnen je smart home.
+Dit is een handleiding voor het toevoegen van nieuwe sensoren aan Home Assistant.
+
+#### 2. Benodigdheden
+##### Algemene Benodigdheden
+* ESP32-C6-DevKitM-1 – Het ontwikkelbord zelf
+* USB-C kabel - Voor voeding en programmering
+* Computer (Windows, macOs, of Linux) - Voor programeren
+* ESPHome of ESP-IDF - Software om de ESP32-C6 te programmeren
+* 5V voeding (optioneel) - Indien je het bord los van een PC wil voeden
+
+- Voor Home Assistant (SmartHome)
+* Home Assistant installatie - Op een Rasberry Pi, server of NAS
+* ESPHome (geïnstalleerd in Home Assistant) - Voor makkelijke configuratie
+* ZIgbee2MQTT (indien Zigbee-Coördinator) - Voor Zigbee-apparaten
+* OpenThread Border Router (indien Thread gebruikt wordt)
+
+#### 3. Protocol
+##### Zigbee: Stappenplan
+- Stap 1: ESPHome installeren in Home Assistant
+1. Open Home Assistant
+2. Ga naar Instelllingen > Add-ons > Add-on Store
+3. Zoek naar ESPHome en klik op Installeren
+4. Na installatie, klik op Starten
+5. Vink "Toon in zijbalk" aan voor snelle toegang
+
+- Stap 2: ESP32-C6 flashen met ESPHome
+1. Sluit de ESP32-C6 met een USB-C kabel aan op je computer
+2. Open ESPHome in Home Assistant
+3. Klik op + Nieuw Apparaat
+4. Kies Handmatig en geef een naam (bijv. "ESP-C6-Zigbee")
+5. Kies ESP32-C6 als bordtype
+6. Klik op Installeren en kies "Verbinden via Serieel"
+7. Selecteer de juiste poort (/dev/ttyUSB0 of COM3) en installeer de firmware
+
+- Stap 3: Wi-Fi Instellen
+1. Zodra de ESP32-C6 is geflasht, start hij in Wi-Fi-configuratiemodus
+2. Ga op je telefoon/computer naar Wi-Fi-instellingen
+3. Verbind met het netwerk ESPHome-xxxxxx
+4. Open een browser en ga naar http://192.168.4.1
+5. Selecteer je Wi-Fi-netwerk, voer het wachtwoord in en klik op Opslaan
+
+- Stap 4: Zigbee-coördinator instellen met Zigbee2MQTT
+De ESP32-C6 heeft een ingebouwde Zigbee-chip, maar je moet deze activeren als Zigbee-coördinator. Dit doe je met Zigbee2MQTT of ZHA.
+Optie 1: Zigbee2MQTT installeren
+1. Ga in Home Assistant naar Instellingen > Add-ons > Add-on Store
+2. Zoek naar Zigbee2MQTT en klik op Installeren
+3. Na installatie, open Zigbee2MQTT Configuratie
+4. Voeg de ESP32-C6 als coördinator toe met deze instellingen:
+```yaml
+serial:
+  port: tcp://IP-VAN-ESP32-C6:6638
+  adapter: ezsp
+```
+(Vervang "IP-VAN-ESP32-C6" met het IP-adres van je ESP32-C6, dit kun je vinden in je router of ESPHome logboek).
+5. Klik op Opslaan en Herstart Zigbee2MQTT
+
+- Stap 5: Zigbee-apparaten toevoegen
+1. Ga naar Zigbee2MQTT > Instellingen
+2. Klik op Apparaat toevoegen (Pairing Mode)
+3. Zet je Zigbee-apparaat in koppelmodus (volgens de handleiding van het apparaat)
+4. Zodra het apparaat verschijnt in Zigbee2MQTT, klik op Opslaan
+
+- Stap 6: Zigbee-apparaten integreren in Home Assistant
+1. Ga naar Instellingen > Apparaten & Diensten
+2. Zoek Zigbee2MQTT en klik op Configureren
+3. Je Zigbee-apparaten zijn nu zichtbaar in Home Assistant!
 
