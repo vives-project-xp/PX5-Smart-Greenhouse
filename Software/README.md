@@ -18,7 +18,8 @@
 - [Personaliseren](#stap-7-dashboard-personaliseren)
 - [Externe toegang](#stap-8-dashboard-beschikbaar-maken-op-externe-apparaten)
 
-
+## ESP installeren
+- [Wat?](#1.-Wat?)
 # Sensoren toevoegen
 
 ## Wat?
