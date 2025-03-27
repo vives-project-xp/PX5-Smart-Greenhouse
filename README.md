@@ -24,8 +24,7 @@ Het team van Smart Greenhouse bestaat uit:
 
 ### Alle info over hardware & sensoren
 - [Hardware](/Hardware)
-### Hoe krijgen we internet in een afgelegen serre?
-- [Netwerken](/Networking)
+- 
 ### Codevoorbeelden & setup Home Asssistant
 - [Software](/Software)
 
