@@ -1,5 +1,5 @@
 # Raspberry Pi
-- **Uitleg**: Voor dit project gaan we een..
+- **Uitleg**: Voor dit project gaan we een Raspberry Pi gebruiken
 
 
 # Microcontroller
