@@ -20,3 +20,12 @@ Met minder verspilling en maximale efficiëntie bouwen we aan een duurzame toeko
 
 <img src="https://github.com/user-attachments/assets/834e5758-c5ba-4658-806d-58f31af82722" style="width: 300px; height: auto;" alt="serre">
 <img src="https://github.com/user-attachments/assets/c9db2914-5988-4a5d-a7b7-4690ed1cc75e" style="width: 300px; height: auto;" alt="demo">
+
+
+Instagram Post Tekst 2 :
+We hebben het Dumey Dashboard in actie! 📊🌱
+Met echte sensorgegevens monitoren we in real-time de temperatuur, luchtvochtigheid en lichtniveaus van de slimme serre. Alles wordt automatisch geoptimaliseerd voor de beste groeiomstandigheden! 🌿
+Minder verspilling, maximale efficiëntie – de toekomst van tuinieren is hier! 🌍
+#SmartGreenhouse #DumeyDashboard #SlimmeSerre #Innovatie #Duurzaamheid
+<img src="https://github.com/user-attachments/assets/d532ef3c-99ca-4628-8f75-9adbeda53eaa" style="width: 300px; height: auto;" alt="Schermafbeelding 2025-03-27 084448">
+
