@@ -1,28 +1,7 @@
-# Installatie Homeassitant:
-Door gebruik te maken van de OpenSource oplatfrom Home-Assitant kunnen we alles makelijk automatiseren en verbinden met elkaar. Hieronder vind je de nodig stappen en onderdelen dat je nodig zal hebben om thuis of op werk je eigen domotica systeem op te stellen.
 
-# Documentatie Sensoren
-
-**Studiegebied:** Technology, Bachelor in Elektronica-ICT, Campus Brugge  
-**Academiejaar:** 2024-2025  
-
----
-
-## Inhoudstafel
-
-1. [Wat?](#wat)
-2. [Benodigdheden](#benodigdheden)
-3. [Protocollen](#protocollen)
-    - [Zigbee: Stappenplan](#zigbee-stappenplan)
-    - [Wi-Fi: Stappenplan](#wifi-stappenplan)
-    - [Z-Wave: Stappenplan](#z-wave-stappenplan)
-    - [Bluetooth: Stappenplan](#bluetooth-stappenplan)
-    - [Thread: Stappenplan](#thread-stappenplan)
-
----
+# Sensoren toevoegen
 
 ## Wat?
-
 Dit is een handleiding voor het toevoegen van nieuwe sensoren aan Home Assistant. We tonen stap voor stap met tekst en afbeeldingen hoe je dit eenvoudig doet.
 
 ---
@@ -152,10 +131,9 @@ ota:
 - **Thread:** Voeg extra apparaten toe voor een sterker mesh-netwerk.
 
 ---
+Voor meer informatie over hoe je sensoren moet toevoegen, kan dit onderste bestand je helpen.
 
-Dit document biedt een duidelijke handleiding voor het toevoegen van verschillende soorten sensoren aan Home Assistant!
-
-[Sensoren Toevoegen (pdf).pdf](https://github.com/user-attachments/files/19482208/Sensoren.Toevoegen.pdf.pdf)
+[Sensoren Toevoegen.pdf](https://github.com/user-attachments/files/19482208/Sensoren.Toevoegen.pdf.pdf)
 
 
 # Home Assistant Dashboard Maken
@@ -272,7 +250,7 @@ action:
 ## Stap 8: Dashboard Beschikbaar Maken op Externe Apparaten
 Wil je jouw dashboard bekijken op je telefoon of tablet? 
 - Installeer de **Home Assistant Companion App** (Android/iOS).
-- Gebruik **Nabu Casa** of **DuckDNS** voor externe toegang.
+- Gebruik **Nabu Casa**, **DuckDNS** of **Tailscale** voor externe toegang.
 
 ---
 
