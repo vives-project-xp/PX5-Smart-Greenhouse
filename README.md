@@ -1,10 +1,8 @@
 ## Inhoudstafel
-- [PX5 Smart Greenhouse](#px5-smart-greenhouse)
-    - [Inhoudsopgave](#inhoud)
-    - [Sensoren](#sensoren)
-    - [Hardware](#Hardware)
-    - [Team](#team)
-- [Meer uitleg nodig?](#meer-uitleg-nodig)
+- [Doel](#Doel)
+- [Team](#Team)
+- [Meer uitleg nodig?](#Meeruitlegnodig?)
+
 ## Doel
 - Het onderhoud van planten automatiseren en monitoren. Een bedrijf onrechtstreeks helpen serres te produceren die digitaal werkt.
 
