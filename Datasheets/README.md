@@ -14,3 +14,15 @@ Handig voor zowel installatie als troubleshooting, zodat je altijd de juiste inf
 
 ## Raspberry Pi
 [Raspberry Pi](/Datasheets/Raspberry_Pi)
+
+## Rookmelder
+[Rookmeder](/Datasheets/Rookmelder)
+
+## Water sensor
+[Water sensor](/Datasheets/Watersensor)
+
+## Zigbee Dongle
+[Zigbee Dongle](/Datasheets/Zigbeedongle)
+
+## Bodemvochtigheid
+[Bodemvochtigheid](/Datasheets/bodemvochtigheid)
