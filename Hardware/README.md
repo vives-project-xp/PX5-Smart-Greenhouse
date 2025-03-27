@@ -80,7 +80,7 @@ Naast het meten van de luchtvochtigheid beschikt deze sensor ook over een ingebo
 
 ## Waterleksensor
 
-<img src = "https://github.com/user-attachments/assets/4cb2aeac-8d86-4cb4-a63b-330d60f370e3" width ="250">
+<img src = "https://github.com/user-attachments/assets/50724709-b60a-47e0-a7bb-1d78bdadd7b3" width ="250">
 
 ### Prijs
 De Frient Water Leak Detector is te koop voor €41,95. Dit is een iets hogere prijsklasse, maar de extra functies maken het een waardevolle investering voor lekkagedetectie.
