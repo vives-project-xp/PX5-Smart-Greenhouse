@@ -28,7 +28,7 @@ Het team van Smart Greenhouse bestaat uit:
 - [Schema's](/Schema's)
 ### Meer informatie over de behuizing
 - [Behuizing](/Behuizing)
-### Datasheets van onze produceten
+### Datasheets van onze producten
 - [Datasheets](/Datasheets)
 
 
