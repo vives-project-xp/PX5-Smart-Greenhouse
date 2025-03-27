@@ -28,7 +28,7 @@ We hebben een Dashboard in actie! 📊🌱
 Met echte sensorgegevens monitoren we in real-time de temperatuur, luchtvochtigheid en lichtniveaus van de slimme serre. Alles wordt automatisch geoptimaliseerd voor de beste groeiomstandigheden! 🌿
 Minder verspilling, maximale efficiëntie – de toekomst van tuinieren is hier! 🌍
 
-#SmartGreenhouse #DumeyDashboard #SlimmeSerre #Innovatie #Duurzaamheid
+#SmartGreenhouse #Dashboard #SlimmeSerre #Innovatie #Duurzaamheid
 
 ### Foto's
 <img src="https://github.com/user-attachments/assets/d532ef3c-99ca-4628-8f75-9adbeda53eaa" style="width: 300px; height: auto;" alt="Schermafbeelding 2025-03-27 084448">
