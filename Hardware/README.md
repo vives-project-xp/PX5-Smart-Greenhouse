@@ -5,7 +5,8 @@
 4. [Vochtigheidssensor](#vochtigheidssensor)
 5. [Waterleksensor](#waterleksensor)
 6. [Bodemvochtigheidssensor](#bodemvochtigheidssensor)
-7. [Main computer](#main-computer)
+7. [Raspberry PI](#raspberrypi5)
+8. [Mini-PC](#minipc)
 
 # Sensoren  
 
@@ -135,7 +136,8 @@ Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtem
 
 ---
 
-### Main computer
+### Raspberry PI 5
 - **Raspberry PI 5 8GB**
 - **OS**: Home Assistant OS 14.2
 - We hebben gekozen voor een Raspberry PI omdat deze een laag verbruik heeft ~2-7 watt. Home Assitant is ook geoptimaliseerd voor de Raspberry Pi en heeft de meeste documentatie en community-ondersteuning.
+### Mini-PC
