@@ -24,7 +24,7 @@ Met minder verspilling en maximale efficiëntie bouwen we aan een duurzame toeko
 ## Instagram post 2
 
 ### Tekst
-We hebben het Dumey Dashboard in actie! 📊🌱
+We hebben een Dashboard in actie! 📊🌱
 Met echte sensorgegevens monitoren we in real-time de temperatuur, luchtvochtigheid en lichtniveaus van de slimme serre. Alles wordt automatisch geoptimaliseerd voor de beste groeiomstandigheden! 🌿
 Minder verspilling, maximale efficiëntie – de toekomst van tuinieren is hier! 🌍
 
