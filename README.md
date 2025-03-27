@@ -28,6 +28,10 @@ Het team van Smart Greenhouse bestaat uit:
 - [Software](/Software)
 ### Schema's over ons project
 - [Schema's](/Schema's)
+### Meer informatie over de behuizing
+- [Behuizing](/Behuizing)
+### Datasheets van onze produceten
+- [Datasheets](/Datasheets)
 
 
 
