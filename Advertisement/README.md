@@ -18,5 +18,5 @@ Met minder verspilling en maximale efficiëntie bouwen we aan een duurzame toeko
 
 #SmartGreenhouse #Innovatie #GroeneToekomst #Duurzaamheid
 
-![serre](https://github.com/user-attachments/assets/834e5758-c5ba-4658-806d-58f31af82722)
-![demo](https://github.com/user-attachments/assets/c9db2914-5988-4a5d-a7b7-4690ed1cc75e)
+<img src="https://github.com/user-attachments/assets/834e5758-c5ba-4658-806d-58f31af82722" style="width: 300px; height: auto;" alt="serre">
+<img src="https://github.com/user-attachments/assets/c9db2914-5988-4a5d-a7b7-4690ed1cc75e" style="width: 300px; height: auto;" alt="demo">
