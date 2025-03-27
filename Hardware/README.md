@@ -1,6 +1,6 @@
 # Sensoren  
 
-Sensoren spelen een belangrijke rol in huisbeveiliging en domotica. Of het nu gaat om het detecteren van rook of beweging, deze slimme apparaten kunnen bijdragen aan een veiliger en comfortabeler huis. Hieronder worden twee sensoren van Frient besproken, een Deens merk dat bekend staat om zijn betrouwbare en innovatieve technologie.  
+Sensoren spelen een belangrijke rol in huisbeveiliging en domotica. Of het nu gaat om het detecteren van rook of beweging, deze slimme apparaten kunnen bijdragen aan een veiliger en comfortabeler huis. Hieronder worden twee sensoren van Frient besproken, een Deens merk dat bekendstaat om zijn betrouwbare en innovatieve technologie.  
 
 ## Rooksensor 
 
@@ -13,7 +13,7 @@ De sensor heeft een prijs van €48,95. Dit maakt het een betaalbare en betrouwb
 Frient is een Deense fabrikant gespecialiseerd in slimme sensoren. Hun producten staan bekend om hun betrouwbaarheid en gebruiksvriendelijkheid, waardoor ze populair zijn binnen de smarthome-gemeenschap.  
 
 ### Batterij  
-Deze rookmelder werkt op een CR123A-batterij en heeft een accuduur van ongeveer 1 jaar. Dit betekent dat je slechts af en toe de batterij hoeft te vervangen, wat zorgt voor minimale onderhoudsbehoefte.  
+Deze rookmelder werkt op een CR123A-batterij en heeft een batterijduur van ongeveer 1 jaar. Dit betekent dat je slechts af en toe de batterij hoeft te vervangen, wat zorgt voor minimale onderhoudsbehoefte.  
 
 ### Protocol  
 De rookmelder maakt gebruik van het Zigbee-protocol. Dit protocol staat bekend om zijn lage energieverbruik en betrouwbaarheid en maakt het eenvoudig om extra Zigbee-compatibele sensoren aan te schaffen en te koppelen.  
@@ -65,7 +65,7 @@ De Frient Smart Humidity Sensor is verkrijgbaar voor een prijs van €26,95. Dit
 Deze sensor is afkomstig van het Deense merk Frient. Frient staat bekend om zijn kwalitatieve en betrouwbare smart home-sensoren, die vaak worden gebruikt in combinatie met verschillende domoticasystemen.
 
 ### Batterij
-De Frient Smart Humidity Sensor werkt op twee AA-penlitebatterijen, deze batterij heeft een levensduur van 6 tot 12 maanden. Dit type batterij is gemakkelijk te vervangen en heeft doorgaans een lange levensduur, waardoor de sensor langdurig zonder onderbrekingen kan functioneren.
+De Frient Smart Humidity Sensor werkt op twee AA-penlitebatterijen, deze batterijen hebben een levensduur van 6 tot 12 maanden. Dit type batterij is gemakkelijk te vervangen en heeft doorgaans een lange levensduur, waardoor de sensor langdurig zonder onderbrekingen kan functioneren.
 
 ### Protocol
 Deze sensor maakt gebruik van het Zigbee-protocol, een energiezuinige en stabiele draadloze communicatiemethode. Dit zorgt voor een betrouwbare verbinding met smart home-systemen en biedt compatibiliteit met een breed scala aan Zigbee-hubs.
@@ -129,4 +129,4 @@ Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtem
 ### Main computer
 - **Raspberry PI 5 8GB**
 - **OS**: Home Assistant OS 14.2
-- We hebben gekozen voor een Raspberry PI omdat deze een laag verbruik heeft ~2-7 watt. Home Assitant is ook geoptimaliseerd voor de Raspberry Pi en heeft de meeste docimentatie en community-ondersteuning.
+- We hebben gekozen voor een Raspberry PI omdat deze een laag verbruik heeft ~2-7 watt. Home Assitant is ook geoptimaliseerd voor de Raspberry Pi en heeft de meeste documentatie en community-ondersteuning.
