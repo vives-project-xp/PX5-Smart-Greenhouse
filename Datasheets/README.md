@@ -13,4 +13,4 @@ Handig voor zowel installatie als troubleshooting, zodat je altijd de juiste inf
 [Mini-PC](/Datasheets/Mini-Pc)
 
 ## Raspberry Pi
-[Raspberry Pi](/Datasheets/Raspberry-Pi)
+[Raspberry Pi](/Datasheets/Raspberry_Pi)
