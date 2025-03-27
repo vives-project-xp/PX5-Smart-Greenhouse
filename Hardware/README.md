@@ -8,6 +8,7 @@
 6. [Bodemvochtigheidssensor](#bodemvochtigheidssensor)
 7. [Raspberry Pi 5](#raspberry-pi-5)
 8. [Mini-PC](#mini-pc)
+9. [Esp32-C6](#)
 
 
 # Sensoren  
