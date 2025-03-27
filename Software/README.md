@@ -1,3 +1,23 @@
+# Inhoudsopgave
+
+## Sensoren toevoegen
+- [Wat?](#wat)
+- [Benodigdheden](#benodigdheden)
+- [Zigbee](#zigbee-stappenplan)
+- [Wi-Fi](#wi-fi-stappenplan)
+- [Z-Wave](#z-wave-stappenplan)
+- [Bluetooth](#bluetooth-stappenplan)
+- [Thread](#thread-stappenplan)
+- [Probleemoplossing](#optimalisatie-en-probleemoplossing)
+
+## Home Assistant Dashboard
+- [Installatie](#stap-1-home-assistant-downloaden)
+- [Dashboard maken](#stap-3-een-nieuw-dashboard-toevoegen)
+- [Kaarten toevoegen](#stap-5-kaarten-toevoegen-aan-je-dashboard)
+- [Automatiseringen](#stap-6-automatiseringen-en-scripts-toevoegen)
+- [Personaliseren](#stap-7-dashboard-personaliseren)
+- [Externe toegang](#stap-8-dashboard-beschikbaar-maken-op-externe-apparaten)
+
 
 # Sensoren toevoegen
 
