@@ -1,7 +1,7 @@
 ## Inhoudstafel
 - [Doel](#Doel)
 - [Team](#Team)
-- [Meer uitleg nodig?](#Extra-Info)
+- [Extra Info](#Extra-Info)
 
 ## Doel
 - Het onderhoud van planten automatiseren en monitoren. Een bedrijf onrechtstreeks helpen serres te produceren die digitaal werkt.
