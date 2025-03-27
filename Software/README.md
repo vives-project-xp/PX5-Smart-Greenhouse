@@ -19,7 +19,9 @@
 - [Externe toegang](#stap-8-dashboard-beschikbaar-maken-op-externe-apparaten)
 
 ## ESP installeren
-- [Wat?](#1.-Wat?)
+- [Wat?](#Uitleg)
+- [Benodigdheden](#Benodigdheden)
+- [Protocol](#Protocol)
 # Sensoren toevoegen
 
 ## Wat?
@@ -275,11 +277,11 @@ Wil je jouw dashboard bekijken op je telefoon of tablet?
 
 ---
 ### ESP32-C6 Zigbee
-#### 1. Wat?
+#### Uitleg
 De ESP32-C6 is een uitstekende keuze voor Home Assistant, dankzij de ondersteuning voor Wi-Fi 6, Bluetooth 5 (LE), Zigbee en Thread. Hierdoor kan het werken als een sensor/aandrijving binnen je smart home.
 Dit is een handleiding voor het toevoegen van nieuwe sensoren aan Home Assistant.
 
-#### 2. Benodigdheden
+#### Benodigdheden
 ##### Algemene Benodigdheden
 * ESP32-C6-DevKitM-1 – Het ontwikkelbord zelf
 * USB-C kabel - Voor voeding en programmering
@@ -293,8 +295,8 @@ Dit is een handleiding voor het toevoegen van nieuwe sensoren aan Home Assistant
 * ZIgbee2MQTT (indien Zigbee-Coördinator) - Voor Zigbee-apparaten
 * OpenThread Border Router (indien Thread gebruikt wordt)
 
-#### 3. Protocol
-##### Zigbee: Stappenplan
+#### Protocol
+##### Stappenplan
 - Stap 1: ESPHome installeren in Home Assistant
 1. Open Home Assistant
 2. Ga naar Instelllingen > Add-ons > Add-on Store
