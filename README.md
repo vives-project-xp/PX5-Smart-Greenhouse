@@ -24,7 +24,6 @@ Het team van Smart Greenhouse bestaat uit:
 
 ### Alle info over hardware & sensoren
 - [Hardware](/Hardware)
-  
 ### Codevoorbeelden & setup Home Asssistant
 - [Software](/Software)
 
