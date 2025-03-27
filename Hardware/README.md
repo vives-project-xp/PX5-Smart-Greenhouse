@@ -1,26 +1,47 @@
 
-## Sensoren
-Frient rookmelder intelligent smoke alarm Zigbee
+### Sensoren
+##Frient rookmelder intelligent smoke alarm Zigbee
 
 <img src="https://github.com/user-attachments/assets/2870ae2b-5953-4684-929c-a64927c714e2" width= "250">
 
-Frient motion sensor pro Zigbee
+#Batterij
+#Prijs
+#Protocol
+#Bereik
+#Functies
+ 
+
+##Frient motion sensor pro Zigbee
 
 <img src ="https://github.com/user-attachments/assets/1c434ce7-bffd-4fd9-abc0-3e530202c8e9" width ="250">
+#Batterij
+#Prijs
+#Protocol
+#Bereik
+#Functies
 
-Frient Smart Humidity sensor Zigbee
+##Frient Smart Humidity sensor Zigbee
 
 <img src = "https://github.com/user-attachments/assets/b973c339-6dbf-41c5-bfa3-16e9a8249a69" width ="250">
 
+#Batterij
+#Prijs
+#Protocol
+#Bereik
+#Functies
 Frient water leak detector Zigbee + probe
 
 <img src = "https://github.com/user-attachments/assets/4cb2aeac-8d86-4cb4-a63b-330d60f370e3" width ="250">
 
-Immax NEO 07523L
+##Immax NEO 07523L
 
 <img src = "https://github.com/user-attachments/assets/fe0d9fe7-ab4b-406f-b521-663b84d6f2a9" width ="250">
 
-
+#Batterij
+#Prijs
+#Protocol
+#Bereik
+#Functies
 ### Coming soon!
 ## Hardware
 
