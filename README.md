@@ -9,7 +9,8 @@
     - [Hardware](#Hardware)
     - [Team](#team)
 - [Meer uitleg nodig?](#meer-uitleg-nodig)
-
+## Doel
+- Het onderhoud van planten automatiseren en monitoren. Een bedrijf onrechtstreeks helpen serres te produceren die digitaal werkt.
 
 ## Team
 Het team van Smart Greenhouse bestaat uit:
