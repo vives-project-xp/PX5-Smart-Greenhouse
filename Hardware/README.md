@@ -1,3 +1,12 @@
+# Inhoudstafel
+1. [Sensoren](#sensoren )
+2. [Rooksensor](#rooksensor)
+3. [Bewegingssensor](#bewegingssensor)
+4. [Vochtigheidssensor](#vochtigheidssensor)
+5. [Waterleksensor](#waterleksensor)
+6. [Bodemvochtigheidssensor](#bodemvochtigheidssensor)
+7. [Main computer](#main-computer)
+
 # Sensoren  
 
 Sensoren spelen een belangrijke rol in huisbeveiliging en domotica. Of het nu gaat om het detecteren van rook of beweging, deze slimme apparaten kunnen bijdragen aan een veiliger en comfortabeler huis. Hieronder worden twee sensoren van Frient besproken, een Deens merk dat bekendstaat om zijn betrouwbare en innovatieve technologie.  
