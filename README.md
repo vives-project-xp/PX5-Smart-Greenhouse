@@ -1,7 +1,7 @@
 ## Inhoudstafel
 - [Doel](#Doel)
 - [Team](#Team)
-- [Meer uitleg nodig?](#Meer-uitleg-nodig?)
+- [Meer uitleg nodig?](#Extra-Info)
 
 ## Doel
 - Het onderhoud van planten automatiseren en monitoren. Een bedrijf onrechtstreeks helpen serres te produceren die digitaal werkt.
@@ -18,7 +18,7 @@ Het team van Smart Greenhouse bestaat uit:
 - [Xander De Vos](https://github.com/xanderdv)
 - [Maarten Audenaert](https://github.com/MaartenAudenaert)
 
-## Meer uitleg nodig?
+## Extra Info
 
 ### Alle info over hardware & sensoren
 - [Hardware](/Hardware)
