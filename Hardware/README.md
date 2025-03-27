@@ -6,7 +6,7 @@
 4. [Vochtigheidssensor](#vochtigheidssensor)
 5. [Waterleksensor](#waterleksensor)
 6. [Bodemvochtigheidssensor](#bodemvochtigheidssensor)
-7. [Raspberry PI 5](#raspberry-pi-5)
+7. [Raspberry Pi 5](#raspberry-pi-5)
 8. [Mini-PC](#mini-pc)
 
 
