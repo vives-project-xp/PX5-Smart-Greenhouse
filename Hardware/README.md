@@ -50,37 +50,81 @@ De Frient motion sensor pro is meer dan alleen een bewegingssensor. Hij heeft ex
 - **Lichtsensor:** Meet de hoeveelheid omgevingslicht, wat bijvoorbeeld kan worden gebruikt om verlichting automatisch aan te passen op basis van het daglicht.  
 
 Dankzij deze functies is de motion sensor niet alleen een beveiligingssensor, maar ook een nuttige toevoeging voor energiebesparing en wooncomfort.  
+Met de Frient rookmelder en motion sensor pro haal je slimme en betrouwbare sensoren in huis die bijdragen aan veiligheid en gemak. Beide apparaten werken met het Zigbee-protocol, hebben een lange batterijduur en zijn eenvoudig te koppelen aan andere smarthome-apparaten.  
 
 ---
 
-Met de Frient rookmelder en motion sensor pro haal je slimme en betrouwbare sensoren in huis die bijdragen aan veiligheid en gemak. Beide apparaten werken met het Zigbee-protocol, hebben een lange batterijduur en zijn eenvoudig te koppelen aan andere smarthome-apparaten.  
-
-
-##Frient Smart Humidity sensor Zigbee
+## Vochtigheidssensor
 
 <img src = "https://github.com/user-attachments/assets/b973c339-6dbf-41c5-bfa3-16e9a8249a69" width ="250">
 
-### Batterij
 ### Prijs
-### Protocol
-### Bereik
-### Functies
+De Frient Smart Humidity Sensor is verkrijgbaar voor een prijs van €26,95. Dit maakt het een betaalbare optie voor wie op zoek is naar een betrouwbare luchtvochtigheidssensor.
 
-## Frient water leak detector Zigbee + probe
+### Merk
+Deze sensor is afkomstig van het Deense merk Frient. Frient staat bekend om zijn kwalitatieve en betrouwbare smart home-sensoren, die vaak worden gebruikt in combinatie met verschillende domoticasystemen.
+
+### Batterij
+De Frient Smart Humidity Sensor werkt op twee AA-penlitebatterijen, deze batterij heeft een levensduur van 6 tot 12 maanden. Dit type batterij is gemakkelijk te vervangen en heeft doorgaans een lange levensduur, waardoor de sensor langdurig zonder onderbrekingen kan functioneren.
+
+### Protocol
+Deze sensor maakt gebruik van het Zigbee-protocol, een energiezuinige en stabiele draadloze communicatiemethode. Dit zorgt voor een betrouwbare verbinding met smart home-systemen en biedt compatibiliteit met een breed scala aan Zigbee-hubs.
+
+### Bereik
+De sensor heeft een maximaal bereik van 8 meter. Dit betekent dat hij ideaal is voor het meten van luchtvochtigheid in kleinere tot middelgrote ruimtes zoals slaapkamers, badkamers of kelders.
+
+### Functies
+Naast het meten van de luchtvochtigheid beschikt deze sensor ook over een ingebouwde temperatuursensor. Dit maakt het mogelijk om zowel de vochtigheid als de temperatuur in een ruimte in de gaten te houden, wat handig kan zijn voor klimaatbeheersing binnen een smart home.
+
+---
+
+## Waterleksensor
 
 <img src = "https://github.com/user-attachments/assets/4cb2aeac-8d86-4cb4-a63b-330d60f370e3" width ="250">
+
+### Prijs
+De Frient Water Leak Detector is te koop voor €41,95. Dit is een iets hogere prijsklasse, maar de extra functies maken het een waardevolle investering voor lekkagedetectie.
+
+### Merk
+Deze sensor is eveneens van het Deense merk Frient, dat een solide reputatie heeft opgebouwd op het gebied van smart home-sensoren. Frient-producten worden vaak geprezen om hun betrouwbaarheid en gebruiksvriendelijkheid.
+
+### Batterij
+De waterleksensor werkt op een CR123A-batterij. Deze batterij heeft een levensduur van 6 tot 12 maanden, waardoor je minder vaak batterijen hoeft te vervangen.
+
+### Protocol
+Net als de andere Frient-producten werkt deze sensor met het Zigbee-protocol, wat zorgt voor een stabiele en veilige draadloze verbinding binnen een smart home-netwerk.
+
+### Bereik
+Helaas is er geen specifieke informatie beschikbaar over het exacte draadloze bereik van deze sensor. In de praktijk functioneert hij echter goed binnen gangbare Zigbee-netwerken.
+
+### Functies
+De Frient Water Leak Detector wordt geleverd met een extra probe, die apart is bijgekocht. Dankzij deze probe kan de sensor worden geplaatst op moeilijk bereikbare plekken, zoals onder kasten of in krappe ruimtes. De sensor heeft daarnaast een ingebouwde temperatuursensor, waardoor hij niet alleen waterlekken detecteert, maar ook temperatuurfluctuaties kan registreren.
+
+---
 
 ## Immax NEO 07523L
 
 <img src = "https://github.com/user-attachments/assets/fe0d9fe7-ab4b-406f-b521-663b84d6f2a9" width ="250">
 
-### Batterij
 ### Prijs
+De Immax NEO 07523L is verkrijgbaar voor een prijs van €38,30. Dit plaatst de sensor in het middensegment van de prijsklasse, maar gezien de veelzijdige functionaliteiten is dit een redelijk bedrag.
+
+### Merk
+Deze sensor is geproduceerd door Immax, een bedrijf dat bekendstaat om zijn brede assortiment aan slimme producten, waaronder verlichting, beveiligingssystemen en sensoren. De producten van Immax zijn gericht op slimme huisautomatisering en bieden vaak compatibiliteit met populaire smart home-systemen.
+
+### Batterij
+De bodemvochtigheidssensor werkt op twee AA-batterijen, en heeft een levensduur van 2 jaar. Dit zorgt ervoor dat de sensor langdurig operationeel blijft zonder frequent batterijvervanging.
+
 ### Protocol
+De Immax NEO 07523L werkt met het Zigbee-protocol. Dit biedt een betrouwbare en energiezuinige draadloze verbinding met Zigbee-compatibele hubs en smart home-platformen.
+
 ### Bereik
+Deze sensor heeft een relatief groot bereik van 12 meter, wat betekent dat hij in grotere ruimtes kan worden gebruikt zonder dat er signaalverlies optreedt.
+
 ### Functies
-### Coming soon!
-## Hardware
+Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtemperatuursensor. Dit is vooral handig voor toepassingen in tuinieren en plantenverzorging, omdat het helpt bij het optimaliseren van de groeiomstandigheden door zowel de vochtigheid als de temperatuur van de bodem te monitoren.
+
+---
 
 ### Main computer
 - **Raspberry PI 5 8GB**
