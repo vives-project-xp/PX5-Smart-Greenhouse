@@ -14,7 +14,7 @@
 - Het onderhoud van planten automatiseren en monitoren. Een bedrijf onrechtstreeks helpen serres te produceren die digitaal werkt.
 ## Sensoren
 Frient rookmelder intelligent smoke alarm Zigbee
-![image](https://github.com/user-attachments/assets/2870ae2b-5953-4684-929c-a64927c714e2)
+![image](https://github.com/user-attachments/assets/2870ae2b-5953-4684-929c-a64927c714e2= 250x250)
 
 Frient motion sensor pro Zigbee
 ![image](https://github.com/user-attachments/assets/1c434ce7-bffd-4fd9-abc0-3e530202c8e9)
