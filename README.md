@@ -13,7 +13,21 @@
 ## Doel
 - Het onderhoud van planten automatiseren en monitoren. Een bedrijf onrechtstreeks helpen serres te produceren die digitaal werkt.
 ## Sensoren
-Sensoren die zullen worden gebruikt in ons project:
+Frient rookmelder intelligent smoke alarm Zigbee
+![image](https://github.com/user-attachments/assets/2870ae2b-5953-4684-929c-a64927c714e2= 250x250)
+
+Frient motion sensor pro Zigbee
+![image](https://github.com/user-attachments/assets/1c434ce7-bffd-4fd9-abc0-3e530202c8e9)
+
+Frient Smart Humidity sensor Zigbee
+![image](https://github.com/user-attachments/assets/b973c339-6dbf-41c5-bfa3-16e9a8249a69)
+
+Frient water leak detector Zigbee + probe
+![image](https://github.com/user-attachments/assets/4cb2aeac-8d86-4cb4-a63b-330d60f370e3)
+
+Immax NEO 07523L
+![image](https://github.com/user-attachments/assets/fe0d9fe7-ab4b-406f-b521-663b84d6f2a9)
+
 
 ### Coming soon!
 ## Hardware
