@@ -154,3 +154,6 @@ ota:
 ---
 
 Dit document biedt een duidelijke handleiding voor het toevoegen van verschillende soorten sensoren aan Home Assistant!
+
+[Sensoren Toevoegen (pdf).pdf](https://github.com/user-attachments/files/19482208/Sensoren.Toevoegen.pdf.pdf)
+
