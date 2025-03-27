@@ -1,4 +1,4 @@
-# Home Assistant Dashboard Documentatie
+### Home Assistant Dashboard Documentatie
 
 Hier is het stappenplan hoe je een dashboard maakt op Home Assistant.
 
