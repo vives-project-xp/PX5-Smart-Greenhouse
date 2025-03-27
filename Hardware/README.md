@@ -1,12 +1,14 @@
 # Inhoudstafel
-1. [Sensoren](#sensoren )
+
+1. [Sensoren](#sensoren)
 2. [Rooksensor](#rooksensor)
 3. [Bewegingssensor](#bewegingssensor)
 4. [Vochtigheidssensor](#vochtigheidssensor)
 5. [Waterleksensor](#waterleksensor)
 6. [Bodemvochtigheidssensor](#bodemvochtigheidssensor)
-7. [Raspberry PI](#raspberrypi5)
-8. [Mini-PC](#minipc)
+7. [Raspberry PI 5](#raspberry-pi-5)
+8. [Mini-PC](#mini-pc)
+
 
 # Sensoren  
 
