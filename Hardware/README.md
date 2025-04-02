@@ -139,6 +139,10 @@ Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtem
 
 ---
 
+### Zigbee-dongle
+- **Conbee II Zigbee USB-Gateway**
+- Deze USB-dongle zorgt ervoor dat we de zigbee sensoren kunnen vinden en in Home-Assistant gebruiken.
+
 ### Raspberry PI 5
 - **Raspberry PI 5 8GB**
 - **OS**: Raspberry PI OS
@@ -147,4 +151,4 @@ Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtem
 ### Mini-PC
 - **Dell Optiplex 7040M**
 - **OS**: Home Assistant OS
-- De raspberry pi dient als een mini router voor in de serre. Extra uitleg en hoe we dit doen in de netwerk sectie.
+- De mini-pc is ons centrale systeem. Op deze pc draait Home Assistant, waarop de Zigbee-dongle alle signalen ontvangt. Deze mini-pc voorziet ook de Raspberry Pi van stroom.
