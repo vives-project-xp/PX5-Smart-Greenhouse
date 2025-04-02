@@ -141,7 +141,10 @@ Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtem
 
 ### Raspberry PI 5
 - **Raspberry PI 5 8GB**
-- **OS**: Home Assistant OS 14.2
-- We hebben gekozen voor een Raspberry PI omdat deze een laag verbruik heeft ~2-7 watt. Home Assitant is ook geoptimaliseerd voor de Raspberry Pi en heeft de meeste documentatie en community-ondersteuning.
+- **OS**: Raspberry PI OS
+- De raspberry pi dient als een mini router voor in de serre. Extra uitleg en hoe we dit doen in de netwerk sectie.
 ---
 ### Mini-PC
+- **Dell Optiplex 7040M**
+- **OS**: Home Assistant OS
+- De raspberry pi dient als een mini router voor in de serre. Extra uitleg en hoe we dit doen in de netwerk sectie.
