@@ -17,7 +17,7 @@ Als eerste controleren we of WiFi is uitgeschakeld op de Raspberry PI. Deze is s
 ```bash
 nmcli device status
 ```
-Hier zien we volgende line als de wifi is uitgeschakeld. Als dit connected/available is dan hoef je volgende stappen niet uitvoeren
+Hier zien we volgende line als de wifi is uitgeschakeld. Als dit connected/disconnected is dan hoef je volgende stappen niet uitvoeren
 ```bash
 wlan0   wifi      unavailable
 ```
@@ -63,13 +63,23 @@ sudo systemctl restart NetworkManager
 ```
 Als laatste zetten we de WiFi radio aan:
 ```bash
-nmcli radio wifi on
+sudo nmcli radio wifi on
 ```
 Eens dit is gebeurd kan je verbinden met een WiFi netwerk we controleren dit eerst met:
 ```bash
 nmcli device status
 ```
+We verwachten hier volgende output:
+```bash
+wlan0          wifi      disconnected            
+```
+Daarna restarten we nog eens de Raspberry PI
+```bash
+sudo reboot        
+```
+Eens dit is gebeurd staat de wifi module aan en kunnen we verbinden met een netwerk. 
 ## :wireless: Verbinden met een WPA2-Enterprise WiFi netwerk
+Voor een WPA2- Enteprise netwerk gebruiken we volgend commando:
 ```bash
 nmcli con add type wifi ifname wlan0 ssid "YOUR_SSID" \
 802-1x.identity "USERNAME" \
