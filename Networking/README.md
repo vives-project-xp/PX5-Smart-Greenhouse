@@ -47,13 +47,28 @@ Hier zien we:
         Soft blocked: yes
         Hard blocked: no
 ``` 
-Als hier no staat dan is WiFi niet geblokkeerd door rfkill.
+Als hier NO staat dan is WiFi niet geblokkeerd door rfkill.
 
 Eens we dit bekeken hebben zullen we WiFi unblocken
 ```bash
 sudo rfkill unblock wifi
 ```
-
+Dan zetten ze wlan0 aan
+```bash
+sudo ip link set wlan0 up
+```
+Eens dit is gebeurd zullen de network-manager rebooten
+```bash
+sudo systemctl restart NetworkManager
+```
+Als laatste zetten we de WiFi radio aan:
+```bash
+nmcli radio wifi on
+```
+Eens dit is gebeurd kan je verbinden met een WiFi netwerk we controleren dit eerst met:
+```bash
+nmcli device status
+```
 ## :wireless: Verbinden met een WPA2-Enterprise WiFi netwerk
 ```bash
 nmcli con add type wifi ifname wlan0 ssid "YOUR_SSID" \
