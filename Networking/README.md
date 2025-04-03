@@ -9,27 +9,52 @@ Deze pagina bevat een uitleg over hoe we ons netwerk opzetten in de serre. In de
 
 ## Raspberry PI OS Installeren
 De eerste stap is het installeren van Raspberry PI OS(lite). Dit doen we via de [officiële-documentatie](https://www.raspberrypi.com/software/) van raspberry pi. Eens dit is gebeurt ben je klaar om van de raspberry pi een Pi-Router te maken. 
-## :wireless: Verbinden met een WPA2-Enterprise WiFi netwerk
+## :wireless: Aanzetten WiFi Raspberry PI
 Om te verbinden met een WPA2-Enterprise netwerk via Raspberry PI OS met GUI is dit niet moeilijk je doet dit gewoon bijne zoals op windows gewoon met een andere GUI
 
 Als we gebruik maken van raspberry pi OS lite vereist dit wel een paar stappen aangezien we geen GUI hebben.
-Als eerste controleren we of WiFi is uitgeschakeld op de Raspberry PI
+Als eerste controleren we of WiFi is uitgeschakeld op de Raspberry PI. Deze is standaard meestal uitgeschakeld door rfkill.
 ```bash
 nmcli device status
 ```
-Als we hier zien dat WiFi is uitgeschakeld moeten we het volgende uitvoeren:
+Hier zien we volgende line als de wifi is uitgeschakeld. Als dit connected/available is dan hoef je volgende stappen niet uitvoeren
+```bash
+wlan0   wifi      unavailable
+```
+Eerst controleren we of er wel een wifi-module beschikbaar is (als je 100% zeker bent dat er een wifi module is dan is dit overbodig.)
 ```bash
 iw dev
-rfkill list all
-sudo rfkill unblock wifi
-sudo ip link set wlan0 up
-sudo systemctl restart NetworkManager
-nmcli radio wifi on
-nmcli device status
-sudo reboot
 ```
-Eens dit is gebeurd staat de wifi module aan en kunnen we verbinden met een netwerk. Voor een WPA2- Enteprise netwerk
-gebruiken we daarvoor volgend commando:
+We verwachten volgende output:
+```bash
+phy#0
+        Interface wlan0
+                ifindex 3
+                wdev 0x1
+                addr xx:xx:xx:xx:xx:xx
+                type managed
+                channel 34 (5170 MHz), width: 20 MHz, center1: 5170 MHz
+```
+Als je hier geen output hebt dan werkt je WiFi chip niet of is er geen chip aanwezig
+
+Daarna controleren we of rfkill de WiFi chip blokkeert
+```bash
+rfkill list all
+```
+Hier zien we:
+```bash
+1: phy0: Wireless LAN
+        Soft blocked: yes
+        Hard blocked: no
+``` 
+Als hier no staat dan is WiFi niet geblokkeerd door rfkill.
+
+Eens we dit bekeken hebben zullen we WiFi unblocken
+```bash
+sudo rfkill unblock wifi
+```
+
+## :wireless: Verbinden met een WPA2-Enterprise WiFi netwerk
 ```bash
 nmcli con add type wifi ifname wlan0 ssid "YOUR_SSID" \
 802-1x.identity "USERNAME" \
