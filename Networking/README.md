@@ -8,11 +8,11 @@ Deze pagina bevat een uitleg over hoe we ons netwerk opzetten in de serre. In de
 - Ethernet kabel
 
 ## Raspberry PI OS Installeren
-De eerste stap is het installeren van Raspberry PI OS(lite). Dit doen we via de [officiële-documentatie](https://www.raspberrypi.com/software/) van raspberry pi. Eens dit is gebeurt ben je klaar om van de raspberry pi een Pi-Router te maken. 
+De eerste stap is het installeren van Raspberry PI OS(lite). Dit doen we via de [officiële-documentatie](https://www.raspberrypi.com/software/) van Raspberry PI. Eens dit is gebeurt ben je klaar om van de Raspberry PI een Pi-Router te maken. 
 ## :wireless: Aanzetten WiFi Raspberry PI
 Om te verbinden met een WPA2-Enterprise netwerk via Raspberry PI OS met GUI is dit niet moeilijk je doet dit gewoon bijne zoals op windows gewoon met een andere GUI
 
-Als we gebruik maken van raspberry pi OS lite vereist dit wel een paar stappen aangezien we geen GUI hebben.
+Als we gebruik maken van Raspberry PI OS lite vereist dit wel een paar stappen aangezien we geen GUI hebben.
 Als eerste controleren we of WiFi is uitgeschakeld op de Raspberry PI. Deze is standaard meestal uitgeschakeld door rfkill.
 ```bash
 nmcli device status
@@ -89,6 +89,8 @@ nmcli con add type wifi ifname wlan0 ssid "YOUR_SSID" \
 wifi-sec.key-mgmt wpa-eap
 ```
 Vervang "YOUR_SSID" door de naam van het netwerk waarmee je wil verbinden "USERNAME" door je username die je hebt gekregen en als laatste "PASSWORD" door het wachtwoord dat je hebt ingesteld.
+## 🍓 Instellen PI-Router
+We zullen de Raspberry PI gebruiken als een router. We doen dit omdat een WPA2-Enterprise netwerk niet kan verbinden met ESP's indien dit nodig is een ook niet met Home Assistant OS.
 ## 📦 Installeren dependencies
 ```bash
 sudo apt update
