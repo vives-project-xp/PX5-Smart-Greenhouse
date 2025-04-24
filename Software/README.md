@@ -276,7 +276,7 @@ Wil je jouw dashboard bekijken op je telefoon of tablet?
 - Gebruik **Nabu Casa**, **DuckDNS** of **Tailscale** voor externe toegang.
 
 ---
-### ESP32-C6 Zigbee
+### ESP32-C6 Zigbee (Compatible firmware)
 #### Uitleg
 De ESP32-C6 is een uitstekende keuze voor Home Assistant, dankzij de ondersteuning voor Wi-Fi 6, Bluetooth 5 (LE), Zigbee en Thread. Hierdoor kan het werken als een sensor/aandrijving binnen je smart home.
 Dit is een handleiding voor het toevoegen van nieuwe sensoren aan Home Assistant.
