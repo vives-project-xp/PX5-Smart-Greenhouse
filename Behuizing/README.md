@@ -14,3 +14,4 @@ Een andere oplossing was om de behuizing van hout te maken. Hoewel dit steviger 
 ## Finale Idee : Behuizing
 
 Uiteindelijk zijn we, in overleg met onze project owner, tot de beslissing gekomen om een plastic behuizing te kopen. We kozen voor een model dat waterdicht en stevig is, zodat we het kunnen gebruiken en indien nodig nog aanpassingen kunnen doen.
+![alt text](image.png)
