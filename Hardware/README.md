@@ -9,6 +9,7 @@
 7. [Raspberry Pi 5](#raspberry-pi-5)
 8. [Mini-PC](#mini-pc)
 9. [Esp32-C6](#)
+10.[Lineare-Actuator]
 
 
 # Sensoren  
@@ -152,3 +153,68 @@ Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtem
 - **Dell Optiplex 7040M**
 - **OS**: Home Assistant OS
 - De mini-pc is ons centrale systeem. Op deze pc draait Home Assistant, waarop de Zigbee-dongle alle signalen ontvangt. Deze mini-pc voorziet ook de Raspberry Pi van stroom.
+
+#### 🔩 Lineaire Actuator Aansturen met H-Brug
+
+Dit project laat zien hoe je een lineaire actuator kunt aansturen met behulp van een microcontroller (zoals een Arduino of STM32) en een H-brug motorstuurcircuit (zoals L298N of BTS7960).
+
+### 📦 Benodigde Componenten
+
+- Microcontroller (Arduino Uno / STM32 / ESP32 / ...)
+- H-brug motorstuurcircuit (bv. L298N, BTS7960)
+- Lineaire actuator (12V of 24V)
+- Externe voeding voor de actuator
+- Weerstanden, jumper wires, breadboard of soldeerboard
+- Eventueel eindschakelaars (limit switches)
+
+### ⚙️ Basiswerking
+
+De H-brug laat toe om de polariteit van de spanning naar de actuator te wijzigen, waardoor deze in- of uitschuift. Door beide inputs laag of PWM te gebruiken, kun je de actuator ook stoppen of regelen.
+
+### 🔌 Aansluitschema (voorbeeld met L298N)
+
+| Microcontroller | L298N IN | Functie        |
+|------------------|-----------|----------------|
+| Pin 2            | IN1       | Richting 1     |
+| Pin 3            | IN2       | Richting 2     |
+| Pin 9 (PWM)      | ENA       | Snelheidsregeling (optioneel) |
+| GND              | GND       | Gemeenschappelijke massa |
+| 12V voeding      | +12V      | Voeding voor actuator |
+| Actuator +       | OUT1      | Naar actuator (polariteit) |
+| Actuator -       | OUT2      | Naar actuator (polariteit) |
+
+### 🧠 Arduino Voorbeeldcode
+
+```cpp
+int in1 = 2;
+int in2 = 3;
+int enablePin = 9;
+
+void setup() {
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
+  pinMode(enablePin, OUTPUT);
+}
+
+void loop() {
+  // Actuator uitschuiven
+  digitalWrite(in1, HIGH);
+  digitalWrite(in2, LOW);
+  analogWrite(enablePin, 200); // snelheid instellen
+
+  delay(3000); // 3 seconden uitschuiven
+
+  // Actuator inschuiven
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, HIGH);
+  analogWrite(enablePin, 200);
+
+  delay(3000); // 3 seconden inschuiven
+
+  // Stop actuator
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, LOW);
+  analogWrite(enablePin, 0);
+
+  delay(2000);
+}
