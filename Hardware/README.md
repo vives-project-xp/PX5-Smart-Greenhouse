@@ -9,7 +9,7 @@
 7. [Raspberry Pi 5](#raspberry-pi-5)
 8. [Mini-PC](#mini-pc)
 9. [Esp32-C6](#)
-10.[Lineare-Actuator]
+10.[Lineare-Actuator](##🔩LineaireActuatorAansturenmetH-Brug)
 
 
 # Sensoren  
@@ -154,7 +154,7 @@ Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtem
 - **OS**: Home Assistant OS
 - De mini-pc is ons centrale systeem. Op deze pc draait Home Assistant, waarop de Zigbee-dongle alle signalen ontvangt. Deze mini-pc voorziet ook de Raspberry Pi van stroom.
 
-#### 🔩 Lineaire Actuator Aansturen met H-Brug
+## 🔩 Lineaire Actuator Aansturen met H-Brug
 
 Dit project laat zien hoe je een lineaire actuator kunt aansturen met behulp van een microcontroller (zoals een Arduino of STM32) en een H-brug motorstuurcircuit (zoals L298N of BTS7960).
 
