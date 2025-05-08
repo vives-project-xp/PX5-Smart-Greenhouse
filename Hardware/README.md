@@ -181,6 +181,7 @@ De ESP32 is van het merk Espressif.
 - **OS**: Home Assistant OS
 - De mini-pc is ons centrale systeem. Op deze pc draait Home Assistant, waarop de Zigbee-dongle alle signalen ontvangt. Deze mini-pc voorziet ook de Raspberry Pi van stroom.
 
+---
 ## 🔩 Lineaire Actuator Aansturen met H-Brug
 
 Dit project laat zien hoe je een lineaire actuator kunt aansturen met behulp van een microcontroller (zoals een Arduino of STM32) en een H-brug motorstuurcircuit (zoals L298N of BTS7960).
