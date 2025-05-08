@@ -142,6 +142,8 @@ Deze sensor heeft een relatief groot bereik van 12 meter, wat betekent dat hij i
 Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtemperatuursensor. Dit is vooral handig voor toepassingen in tuinieren en plantenverzorging, omdat het helpt bij het optimaliseren van de groeiomstandigheden door zowel de vochtigheid als de temperatuur van de bodem te monitoren.
 
 ## ESP32-C6-Mini-1
+<img src = "https://github.com/user-attachments/assets/bf3de0bb-26bb-4b97-97e8-9fd751d301a8" width ="250">
+
 
 ### Prijs
 We hebben de ESP32 aangekocht voor ongeveer €15.
