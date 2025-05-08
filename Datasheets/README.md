@@ -10,7 +10,7 @@ Handig voor zowel installatie als troubleshooting, zodat je altijd de juiste inf
 [Luchtvochtigheidssensor](/Datasheets/Luchtvochtigheid)
 
 ## Watersensor
-[Watersensor](/Datasheets/Watersensor)
+[Watersensor](/Datasheets/Water sensor)
 
 ## Bodemvochtigheidsensor
 [Bodemvochtigheid](/Datasheets/bodemvochtigheid)
