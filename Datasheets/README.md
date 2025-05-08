@@ -4,10 +4,19 @@ Hier vind je gedetailleerde specificaties, technische informatie en compatibilit
 Handig voor zowel installatie als troubleshooting, zodat je altijd de juiste informatie bij de hand hebt!
 
 ## Bewegingssensor
-[Beweegsensor](/Datasheets/Beweegsensor)
+[Bewegingssensor](/Datasheets/Beweegsensor)
 
-## Luchtvochigheid
-[Luchtvochtigheid](/Datasheets/Luchtvochtigheid)
+## Luchtvochigheidssensor
+[Luchtvochtigheidssensor](/Datasheets/Luchtvochtigheid)
+
+## Watersensor
+[Watersensor](/Datasheets/Watersensor)
+
+## Bodemvochtigheidsensor
+[Bodemvochtigheid](/Datasheets/bodemvochtigheid)
+
+## Rookmelder
+[Rookmeder](/Datasheets/Rookmelder)
 
 ## Mini-PC
 [Mini-PC](/Datasheets/Mini-Pc)
@@ -15,14 +24,6 @@ Handig voor zowel installatie als troubleshooting, zodat je altijd de juiste inf
 ## Raspberry Pi
 [Raspberry Pi](/Datasheets/Raspberry_Pi)
 
-## Rookmelder
-[Rookmeder](/Datasheets/Rookmelder)
-
-## Water sensor
-[Water sensor](/Datasheets/Watersensor)
-
 ## Zigbee Dongle
 [Zigbee Dongle](/Datasheets/Zigbeedongle)
 
-## Bodemvochtigheid
-[Bodemvochtigheid](/Datasheets/bodemvochtigheid)
