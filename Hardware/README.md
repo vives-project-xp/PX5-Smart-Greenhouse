@@ -6,10 +6,11 @@
 4. [Vochtigheidssensor](#vochtigheidssensor)
 5. [Waterleksensor](#waterleksensor)
 6. [Bodemvochtigheidssensor](#bodemvochtigheidssensor)
-7. [Raspberry Pi 5](#raspberry-pi-5)
-8. [Mini-PC](#mini-pc)
-9. [Esp32-C6](#)
-10. [Motoren](#-lineaire-actuator-aansturen-met-h-brug)
+7. [UltrasoneSensor] (#ultrasonesensor)
+8. [Raspberry Pi 5](#raspberry-pi-5)
+9. [Mini-PC](#mini-pc)
+10. [Esp32-C6](#ESP32-C6-Mini-1)
+11. [Motoren](#-lineaire-actuator-aansturen-met-h-brug)
 
 
 
@@ -139,6 +140,28 @@ Deze sensor heeft een relatief groot bereik van 12 meter, wat betekent dat hij i
 
 ### Functies
 Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtemperatuursensor. Dit is vooral handig voor toepassingen in tuinieren en plantenverzorging, omdat het helpt bij het optimaliseren van de groeiomstandigheden door zowel de vochtigheid als de temperatuur van de bodem te monitoren.
+
+## ESP32-C6-Mini-1
+
+### Prijs
+We hebben de ESP32 aangekocht voor ongeveer €15.
+
+### Merk
+De ESP32 is van het merk Espressif.
+
+### Voeding
+1) 3.3V voeding
+2) 5V voeding
+3) USB-C aansluiting
+
+### Functies
+- Wi-Fi
+- Zigbee
+- Bluetooth
+- Thread
+
+
+
 
 ---
 
