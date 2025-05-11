@@ -140,28 +140,7 @@ Deze sensor heeft een relatief groot bereik van 12 meter, wat betekent dat hij i
 
 ### Functies
 Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtemperatuursensor. Dit is vooral handig voor toepassingen in tuinieren en plantenverzorging, omdat het helpt bij het optimaliseren van de groeiomstandigheden door zowel de vochtigheid als de temperatuur van de bodem te monitoren.
-
-## ESP32-C6-Mini-1
-<img src = "https://github.com/user-attachments/assets/bf3de0bb-26bb-4b97-97e8-9fd751d301a8" width ="250">
-
-
-### Prijs
-We hebben de ESP32 aangekocht voor ongeveer €15.
-
-### Merk
-De ESP32 is van het merk Espressif.
-
-### Voeding
-1) 3.3V voeding
-2) 5V voeding
-3) USB-C aansluiting
-
-### Functies
-- Wi-Fi
-- Zigbee
-- Bluetooth
-- Thread
-
+---
 
 ## Ultrasonesenor
 <img src = "https://github.com/user-attachments/assets/e4cac565-319c-44f0-8893-1a36c13f56a0" width ="250">
@@ -205,6 +184,28 @@ De HC-SR04 zendt een ultrasoon geluidssignaal uit en meet de tijd totdat het sig
 - De mini-pc is ons centrale systeem. Op deze pc draait Home Assistant, waarop de Zigbee-dongle alle signalen ontvangt. Deze mini-pc voorziet ook de Raspberry Pi van stroom.
 
 ---
+
+## ESP32-C6-Mini-1
+<img src = "https://github.com/user-attachments/assets/bf3de0bb-26bb-4b97-97e8-9fd751d301a8" width ="250">
+
+
+### Prijs
+We hebben de ESP32 aangekocht voor ongeveer €15.
+
+### Merk
+De ESP32 is van het merk Espressif.
+
+### Voeding
+1) 3.3V voeding
+2) 5V voeding
+3) USB-C aansluiting
+
+### Functies
+- Wi-Fi
+- Zigbee
+- Bluetooth
+- Thread
+
 ## Lineaire Actuator Aansturen met H-Brug
 
 Dit project laat zien hoe je een lineaire actuator kunt aansturen met behulp van een microcontroller (zoals een Arduino of STM32) en een H-brug motorstuurcircuit (zoals L298N of BTS7960).
