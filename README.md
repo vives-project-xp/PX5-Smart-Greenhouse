@@ -1,12 +1,12 @@
 ## Inhoudstafel
 - [Team](#Team)
 - [Doel](#Doel)
-- [Technische aanpak](#technischeaanpak)
-- [Affiches](#affiches)
+- [Technische aanpak](#Technische-qanpak)
+- [Affiches](#Begin-en-Eind-Affiche)
 - [Extra Info](#Extra-Info)
 
 
-## De serre en het dashboard
+## De Serre en het Dashboard
 
 <div style="display: flex; gap: 10px;">
    <img src="https://github.com/user-attachments/assets/ed7a53dc-a937-4934-b67c-e634f356960d" height="300">
