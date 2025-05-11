@@ -51,19 +51,15 @@ Het systeem maakt gebruik van zowel hardware als software:
 
 ## Extra Info
 
-### Alle info over hardware & sensoren
-- [Hardware](/Hardware)
-### Codevoorbeelden & setup Home Asssistant
-- [Software](/Software)
-### Schema's over ons project
-- [Schema's](/Schema's)
-### Meer informatie over de behuizing
-- [Behuizing](/Behuizing)
-### Datasheets van onze producten
-- [Datasheets](/Datasheets)
-### Het gebruikte netwerk
-- [Netwerk](/Networking)
-  
+| Onderdeel   | Inhoud                                 |
+|:------------|:----------------------------------------|
+| [**Hardware**](/Hardware)   | Info over hardware & sensoren             |
+| [**Software**](/Software)   | Codevoorbeelden & Home Assistant setup   |
+| [**Schema's**](/Schema's)   | Overzicht van ons project in schema's    |
+| [**Behuizing**](/Behuizing) | Info over de behuizing van het project   |
+| [**Datasheets**](/Datasheets) | Technische fiches van de gebruikte producten |
+| [**Netwerk**](/Networking)  | Details over het gebruikte netwerk       |
+
 
 
 
