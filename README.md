@@ -39,6 +39,12 @@ Het systeem maakt gebruik van zowel hardware als software:
 - **Dashboard**: een gebruiksvriendelijke interface waar alle gegevens worden getoond, en waar je bepaalde onderdelen kan wijzigen.
 
 
+## Begin en Eind Affiche
+
+<div style="display: flex; gap: 10px;">
+   <img src="https://github.com/user-attachments/assets/34eaa290-13ab-4389-9311-ffae79a41bab" height="400">
+    <img src="/" height="300">
+</div>
 
 
 ## Extra Info
