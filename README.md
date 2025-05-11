@@ -4,15 +4,15 @@
 - [Extra Info](#Extra-Info)
 
 ## Doel
-- Het onderhoud van planten automatiseren en monitoren. Een bedrijf onrechtstreeks helpen serres te produceren die digitaal werkt.
+  Het hoofddoel van ons is om een slim systeem maken dat in staat is om de serre te monitoren en het automatisch aan te passen.
+  Door gebruik te maken van sensoren en pompen kunnen we parameters zoals luchtvochtigheid, temperatuur, bodemvochtigheid en lichtintensiteit in real-time worden gevolgd en aangepast.
+  Dit zorgt ervoor dat je zelf de serre niet de hele tijd in de gaten moet houden.
 
 ## Serre en Dashboard
 
 <div style="display: flex; gap: 10px;">
    <img src="https://github.com/user-attachments/assets/ed7a53dc-a937-4934-b67c-e634f356960d" height="300">
     <img src="https://github.com/user-attachments/assets/dbd9272b-95d0-4c99-98ac-92034b409ac7" height="300">
- 
-
 </div>
 
 
