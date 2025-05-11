@@ -11,7 +11,7 @@
 9. [Raspberry Pi 5](#raspberry-pi-5)
 10. [Mini-PC](#mini-pc)
 11. [Esp32-C6](#ESP32-C6-Mini-1)
-12. [Motoren](#-lineaire-actuator-aansturen-met-h-brug)
+12. [Motoren](#LineaireActuatorAansturenmetH-Brug)
 
 
 
