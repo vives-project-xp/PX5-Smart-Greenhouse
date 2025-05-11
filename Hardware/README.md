@@ -6,7 +6,7 @@
 4. [Vochtigheidssensor](#vochtigheidssensor)
 5. [Waterleksensor](#waterleksensor)
 6. [Bodemvochtigheidssensor](#bodemvochtigheidssensor)
-7. [UltrasoneSensor] (#ultrasonesensor)
+7. [Ultrasonesensor](#ultrasonesenor)
 8. [Raspberry Pi 5](#raspberry-pi-5)
 9. [Mini-PC](#mini-pc)
 10. [Esp32-C6](#ESP32-C6-Mini-1)
