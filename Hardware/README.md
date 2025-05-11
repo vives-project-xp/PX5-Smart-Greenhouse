@@ -7,10 +7,11 @@
 5. [Waterleksensor](#waterleksensor)
 6. [Bodemvochtigheidssensor](#bodemvochtigheidssensor)
 7. [Ultrasonesensor](#ultrasonesenor)
-8. [Raspberry Pi 5](#raspberry-pi-5)
-9. [Mini-PC](#mini-pc)
-10. [Esp32-C6](#ESP32-C6-Mini-1)
-11. [Motoren](#-lineaire-actuator-aansturen-met-h-brug)
+8. [Zigbee-dongle](#zigbee-dongle)
+9. [Raspberry Pi 5](#raspberry-pi-5)
+10. [Mini-PC](#mini-pc)
+11. [Esp32-C6](#ESP32-C6-Mini-1)
+12. [Motoren](#-lineaire-actuator-aansturen-met-h-brug)
 
 
 
@@ -140,6 +141,7 @@ Deze sensor heeft een relatief groot bereik van 12 meter, wat betekent dat hij i
 
 ### Functies
 Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtemperatuursensor. Dit is vooral handig voor toepassingen in tuinieren en plantenverzorging, omdat het helpt bij het optimaliseren van de groeiomstandigheden door zowel de vochtigheid als de temperatuur van de bodem te monitoren.
+
 ---
 
 ## Ultrasonesenor
@@ -172,7 +174,7 @@ De HC-SR04 zendt een ultrasoon geluidssignaal uit en meet de tijd totdat het sig
 ### Zigbee-dongle
 - **Conbee II Zigbee USB-Gateway**
 - Deze USB-dongle zorgt ervoor dat we de zigbee sensoren kunnen vinden en in Home-Assistant gebruiken.
-
+---
 ### Raspberry PI 5
 - **Raspberry PI 5 8GB**
 - **OS**: Raspberry PI OS
