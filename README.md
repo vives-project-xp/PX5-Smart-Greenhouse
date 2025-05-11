@@ -6,12 +6,6 @@
 - [Extra Info](#Extra-Info)
 
 
-## De Serre en het Dashboard
-
-<div style="display: flex; gap: 10px;">
-   <img src="https://github.com/user-attachments/assets/ed7a53dc-a937-4934-b67c-e634f356960d" height="300">
-    <img src="https://github.com/user-attachments/assets/dbd9272b-95d0-4c99-98ac-92034b409ac7" height="300">
-</div>
 
 ## Team
 Het team van Smart Greenhouse bestaat uit:
@@ -29,6 +23,12 @@ Het team van Smart Greenhouse bestaat uit:
   Door gebruik te maken van sensoren en pompen kunnen we parameters zoals luchtvochtigheid, temperatuur, bodemvochtigheid en lichtintensiteit in real-time worden gevolgd en aangepast.
   Dit zorgt ervoor dat je zelf de serre niet de hele tijd in de gaten moet houden.
 
+## Voorstelling van het project
+ <img src="https://github.com/user-attachments/assets/884ad572-81ab-4c8f-9c20-52b59f5506f5" height="500">
+
+
+
+
 ## Technische aanpak
 Het systeem maakt gebruik van zowel hardware als software:
 
@@ -40,6 +40,14 @@ Het systeem maakt gebruik van zowel hardware als software:
 
 - **Dashboard**: een gebruiksvriendelijke interface waar alle gegevens worden getoond, en waar je bepaalde onderdelen kan wijzigen.
 
+## De Serre en het Dashboard
+
+<div style="display: flex; gap: 10px;">
+   <img src="https://github.com/user-attachments/assets/ed7a53dc-a937-4934-b67c-e634f356960d" height="300">
+    <img src="https://github.com/user-attachments/assets/dbd9272b-95d0-4c99-98ac-92034b409ac7" height="300">
+</div>
+
+
 
 ## Begin en Eind Affiche
 
@@ -47,6 +55,9 @@ Het systeem maakt gebruik van zowel hardware als software:
    <img src="https://github.com/user-attachments/assets/34eaa290-13ab-4389-9311-ffae79a41bab" height="400">
     <img src="/" height="300">
 </div>
+
+
+
 
 
 ## Extra Info
