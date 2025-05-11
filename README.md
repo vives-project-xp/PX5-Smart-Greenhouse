@@ -1,7 +1,7 @@
 ## Inhoudstafel
 - [Team](#Team)
 - [Doel](#Doel)
-- [Technische aanpak](#Technische-qanpak)
+- [Technische aanpak](#Technische-aanpak)
 - [Affiches](#Begin-en-Eind-Affiche)
 - [Extra Info](#Extra-Info)
 
