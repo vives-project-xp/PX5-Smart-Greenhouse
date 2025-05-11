@@ -1,6 +1,8 @@
 ## Inhoudstafel
-- [Doel](#Doel)
 - [Team](#Team)
+- [Doel](#Doel)
+- [Technische aanpak](#technischeaanpak)
+- [Affiches](#affiches)
 - [Extra Info](#Extra-Info)
 
 
