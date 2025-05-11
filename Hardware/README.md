@@ -10,8 +10,8 @@
 8. [Zigbee-dongle](#zigbee-dongle)
 9. [Raspberry Pi 5](#raspberry-pi-5)
 10. [Mini-PC](#mini-pc)
-11. [Esp32-C6](#ESP32-C6-Mini-1)
-12. [Motoren](#LineaireActuatorAansturenmetH-Brug)
+11. [Esp32-C6](#esp32-c6-mini-1)
+12. [Motoren](#motoren)
 
 
 
@@ -38,7 +38,7 @@ De rookmelder maakt gebruik van het Zigbee-protocol. Dit protocol staat bekend o
 
 ### Bereik  
 Het draadloze bereik van deze sensor is 8 meter, wat betekent dat hij gemakkelijk verbinding kan maken met andere Zigbee-apparaten binnen dit bereik.  
-
++
 ---
 
 ## Bewegingssensor 
@@ -208,7 +208,9 @@ De ESP32 is van het merk Espressif.
 - Bluetooth
 - Thread
 
-## Lineaire Actuator Aansturen met H-Brug
+## Motoren
+
+### Lineaire Actuator Aansturen met H-Brug
 
 Dit project laat zien hoe je een lineaire actuator kunt aansturen met behulp van een microcontroller (zoals een Arduino of STM32) en een H-brug motorstuurcircuit (zoals L298N of BTS7960).
 
