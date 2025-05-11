@@ -1,14 +1,9 @@
 # Inhoudsopgave
 
 ## Sensoren toevoegen
-- [Wat?](#wat)
-- [Benodigdheden](#benodigdheden)
-- [Zigbee](#zigbee-stappenplan)
-- [Wi-Fi](#wi-fi-stappenplan)
-- [Z-Wave](#z-wave-stappenplan)
-- [Bluetooth](#bluetooth-stappenplan)
-- [Thread](#thread-stappenplan)
-- [Probleemoplossing](#optimalisatie-en-probleemoplossing)
+- [Protocollen](#protocollen)
+- [Voorbeelden](#voorbeelden)
+
 
 ## Home Assistant Dashboard
 - [Installatie](#stap-1-home-assistant-downloaden)
@@ -42,6 +37,13 @@ Dit is een handleiding voor het toevoegen van nieuwe sensoren aan Home Assistant
 ---
 
 ## Protocollen
+
+- [Zigbee](#zigbee-stappenplan)
+- [Wi-Fi](#wi-fi-stappenplan)
+- [Z-Wave](#z-wave-stappenplan)
+- [Bluetooth](#bluetooth-stappenplan)
+- [Thread](#thread-stappenplan)
+- [Probleemoplossing](#optimalisatie-en-probleemoplossing)
 
 ### Zigbee: Stappenplan
 
@@ -157,6 +159,11 @@ ota:
 Voor meer informatie over hoe je sensoren moet toevoegen, kan dit onderste bestand je helpen.
 
 [Sensoren Toevoegen.pdf](https://github.com/user-attachments/files/19482208/Sensoren.Toevoegen.pdf.pdf)
+
+## Voorbeelden
+
+
+
 
 
 # Home Assistant Dashboard Maken
