@@ -9,8 +9,8 @@
 ## Serre en Dashboard
 
 <div style="display: flex; gap: 10px;">
-   <img src="https://github.com/user-attachments/assets/ed7a53dc-a937-4934-b67c-e634f356960d" height="350">
-    <img src="https://github.com/user-attachments/assets/dbd9272b-95d0-4c99-98ac-92034b409ac7" height="350">
+   <img src="https://github.com/user-attachments/assets/ed7a53dc-a937-4934-b67c-e634f356960d" height="300">
+    <img src="https://github.com/user-attachments/assets/dbd9272b-95d0-4c99-98ac-92034b409ac7" height="300">
  
 
 </div>
