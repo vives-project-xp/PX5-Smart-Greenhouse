@@ -8,7 +8,7 @@ Welkom! In deze sectie vind je alle technische schema's die bij dit project hore
 
 Deze folder bevat de hardware-architecturen van het project.
 
-👉 [Architecturen](/Schema's/Architecturen)
+[Architecturen](/Schema's/Architecturen)
 
 ---
 
@@ -16,7 +16,7 @@ Deze folder bevat de hardware-architecturen van het project.
 
 In de folder zonnepanelen vind je de schema's voor het opzetten van een zonnepanelensysteem. Dit systeem voorziet de motoren van een stroombron.
 
-👉 [Zonnepanelen schematic](/Schema's/Zonnepanelen)
+[Zonnepanelen schematic](/Schema's/Zonnepanelen)
 
 ---
 
@@ -24,4 +24,4 @@ In de folder zonnepanelen vind je de schema's voor het opzetten van een zonnepan
 
 De folder Scenario's bevat verschillende scenario’s voor het project, zoals een scenario voor thuis.
 
-👉 [Scenario's](/Schema's/scenario's)
+[Scenario's](/Schema's/scenario's)
