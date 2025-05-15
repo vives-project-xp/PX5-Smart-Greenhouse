@@ -1,3 +1,6 @@
+# Hardware
+In dit document vind je informatie over de gebruikte hardware zoals de prijs, het merk, het protocol maar ook een codevoorbeeld voor de gebruikte motor. 
+
 # Inhoudstafel
 
 1. [Sensoren](#sensoren)
