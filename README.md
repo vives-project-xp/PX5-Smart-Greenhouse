@@ -25,7 +25,7 @@ Het team van Smart Greenhouse bestaat uit:
 
 ## Voorstelling van het project
  <img src="https://github.com/user-attachments/assets/884ad572-81ab-4c8f-9c20-52b59f5506f5" height="500">
-  <img src="https://github.com/user-attachments/assets/cc6528d0-0edf-481d-bcb7-a2806c479c12" height="500">
+
 
 
 
@@ -55,9 +55,8 @@ Het systeem maakt gebruik van zowel hardware als software:
 
 <div style="display: flex; gap: 10px;">
    <img src="https://github.com/user-attachments/assets/34eaa290-13ab-4389-9311-ffae79a41bab" height="400">
-    <img src="/" height="300">
+    <img src="https://github.com/user-attachments/assets/cc6528d0-0edf-481d-bcb7-a2806c479c12" height="400">
 </div>
-
 
 
 
