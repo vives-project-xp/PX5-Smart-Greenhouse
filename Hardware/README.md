@@ -208,22 +208,34 @@ De HC-SR04 zendt een ultrasoon geluidssignaal uit en meet de tijd totdat het sig
 ### Zigbee-dongle
 - **Conbee II Zigbee USB-Gateway**
 - Deze USB-dongle zorgt ervoor dat we de zigbee sensoren kunnen vinden en in Home-Assistant gebruiken.
+
+## Link
+[Conbee 2](https://www.robbshop.nl/conbee-iii-deconz-zigbee-usb-dongle?utm_source=google&utm_medium=cpc&utm_id=17886090674&utm_term=&utm_content=&gad_source=1&gad_campaignid=17878488618&gclid=Cj0KCQjwoZbBBhDCARIsAOqMEZXdtkYSkDc5yiwdp0VfvB8TBSuas6pTQ2n1NN89PCOdtTBp_nLnqowaAhrvEALw_wcB)
+
 ---
 ### Raspberry PI 5
 - **Raspberry PI 5 8GB**
 - **OS**: Raspberry PI OS
 - De raspberry pi dient als een mini router voor in de serre. Extra uitleg en hoe we dit doen in de netwerk sectie.
+
+
+## Link
+[Raspberry Pi 5](https://www.kiwi-electronics.com/nl/raspberry-pi-5-8gb-11580?country=BE&gad_source=1&gad_campaignid=292887425&gclid=Cj0KCQjwoZbBBhDCARIsAOqMEZVC8HO3ejd82HtUgTYnqBIbDYJkEdK7Hj4c6GZDAywRIse9Jk2WQUYaAvcYEALw_wcB)
+
+  
 ---
 ### Mini-PC
 - **Dell Optiplex 7040M**
 - **OS**: Home Assistant OS
 - De mini-pc is ons centrale systeem. Op deze pc draait Home Assistant, waarop de Zigbee-dongle alle signalen ontvangt. Deze mini-pc voorziet ook de Raspberry Pi van stroom.
 
+## Link
+[Mini-PC](https://www.refurbed.be/p/dell-optiplex-7040-micro-usff-in/8221/?co=be&utm_cluster=gradeA&utm_content=dell-optiplex-7040-micro-usff-in-8221&utm_group=dell-optiplex-7040-micro-usff-in&ad_price199.99&utm_campaign=BE%20-%20Standard%20Shopping%20-%20No%20Index&utm_medium=cpc&utm_source=google&gad_source=1&gad_campaignid=21358050415&gclid=Cj0KCQjwoZbBBhDCARIsAOqMEZX7NjpKYuNmXpWWmKFazI2aSMVdborHMIGc4x7Bx4Nd_x6lI34xLCcaAqnXEALw_wcB)
+
 ---
 
 ## ESP32-C6-Mini-1
 <img src = "https://github.com/user-attachments/assets/bf3de0bb-26bb-4b97-97e8-9fd751d301a8" width ="250">
-
 
 ### Prijs
 We hebben de ESP32 aangekocht voor ongeveer €15.
@@ -241,6 +253,11 @@ De ESP32 is van het merk Espressif.
 - Zigbee
 - Bluetooth
 - Thread
+
+
+## Link
+[ESP32-C6]([https://www.kiwi-electronics.com/nl/raspberry-pi-5-8gb-11580?country=BE&gad_source=1&gad_campaignid=292887425&gclid=Cj0KCQjwoZbBBhDCARIsAOqMEZVC8HO3ejd82HtUgTYnqBIbDYJkEdK7Hj4c6GZDAywRIse9Jk2WQUYaAvcYEALw_wcB](https://www.tinytronics.nl/nl/development-boards/microcontroller-boards/met-wi-fi/espressif-esp32-c6-devkitm-1))
+
 
 ## Motoren
 
@@ -308,3 +325,8 @@ void loop() {
 
   delay(2000);
 }
+
+
+## Link
+[Linear Actuator](https://benl.rs-online.com/web/p/electric-linear-actuators/7643471?cm_mmc=BE-PPC-DS3A-_-google-_-DSA_BENL_NL_Mechanical+Power+Transmission_Index-_-Electric+Linear+Actuators%7C+Products-_-DYNAMIC+SEARCH+ADS&matchtype=&dsa-1656521071435&gclsrc=aw.ds&gad_source=1&gad_campaignid=17139240713&gclid=Cj0KCQjwoZbBBhDCARIsAOqMEZUrzvVQtUCTvdmbcm09WxXfRwWLBmkHLASr9gGKvwVIaodJ89KNEZwaAqriEALw_wcB)
+
