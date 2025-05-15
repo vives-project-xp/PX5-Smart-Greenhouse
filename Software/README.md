@@ -289,10 +289,17 @@ Je doet dit door de raw configuration editor te gebruiken.
 1. Druk op het potlood rechtsboven.
 2. Druk daarna op de 3 punten.
 3. Selecteer raw configuration editor.
-4. Plak dan deze code in de raw configuration editor.[Dashboard](/Software/Dashboard.md)
+4. Plak dan deze code in de raw configuration editor.--> Code voor [Dashboard](/Software/Dashboard.md)
 5. Je zult wel de entiteiten moeten aanpassen.
-6. Om het watervat werkend te krijgen zul je ook deze helpers moeten instellen.![image](https://github.com/user-attachments/assets/ee7db8eb-0936-46d6-b6c9-4d98619aee1a)
-   
+6. Ga terug naar instellingen en druk op 3 puntjes rechtsboven.
+7. Druk op herlaad YAML-configuratie.
+7. Om het watervat werkend te krijgen zul je ook deze helpers moeten instellen.![image](https://github.com/user-attachments/assets/ee7db8eb-0936-46d6-b6c9-4d98619aee1a)
+### Helpers aanmaken voor het vat
+1. Ga naar Instellingen.
+2. Ga naar apparaten en diensten.
+3. Ga naar het tablad Helpers.
+4. Druk op de blauwe knop helper aanmaken.
+
 ### De Balk breedte
 1. Stel een minimumwaarde in van 0.
 2. Stel een maximumwaarde in van 300.
