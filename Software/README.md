@@ -289,7 +289,7 @@ Je doet dit door de raw configuration editor te gebruiken.
 1. Druk op het potlood rechtsboven.
 2. Druk daarna op de 3 punten.
 3. Selecteer raw configuration editor.
-4. Plak dan deze code in de raw configuration editor.[Dashboard](/Dashboard.md)
+4. Plak dan deze code in de raw configuration editor.[Dashboard](/Software/Dashboard.md)
 5. Je zult wel de entiteiten moeten aanpassen.
 
 ---
