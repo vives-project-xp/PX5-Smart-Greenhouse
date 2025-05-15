@@ -23,7 +23,7 @@ In dit document vind je informatie over de gebruikte hardware zoals de prijs, he
 
 Sensoren spelen een belangrijke rol in huisbeveiliging en domotica. Of het nu gaat om het detecteren van rook of beweging, deze slimme apparaten kunnen bijdragen aan een veiliger en comfortabeler huis. Hieronder worden twee sensoren van Frient besproken, een Deens merk dat bekendstaat om zijn betrouwbare en innovatieve technologie.  
 
-## Rooksensor 
+## Rooksensor (Frient Smoke Alarm
 
 <img src="https://github.com/user-attachments/assets/2870ae2b-5953-4684-929c-a64927c714e2" width="250">  
 
@@ -47,7 +47,7 @@ Het draadloze bereik van deze sensor is 8 meter, wat betekent dat hij gemakkelij
 
 ---
 
-## Bewegingssensor 
+## Bewegingssensor (Frient Motion sensor Pro)
 
 <img src="https://github.com/user-attachments/assets/1c434ce7-bffd-4fd9-abc0-3e530202c8e9" width="250">  
 
