@@ -171,29 +171,36 @@ Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtem
 <img src = "https://github.com/user-attachments/assets/e4cac565-319c-44f0-8893-1a36c13f56a0" width ="250">
 
 **Prijs**
+
 De ultrasone afstandssensor is verkrijgbaar voor ongeveer €2 à €4, wat het een van de goedkoopste afstandssensoren op de markt maakt. Hierdoor is het een budgetvriendelijke keuze voor basisafstandsmetingen in projecten zoals een smart greenhouse.
 Merk
 
 **Merk**
+
 De meest gebruikte variant is de HC-SR04, geproduceerd door verschillende fabrikanten wereldwijd. Het is een generieke sensor en wordt vaak aangeboden door elektronicawinkels onder verschillende merknamen.
 Voeding
 
 **Voeding**
+
 De sensor werkt op een spanning van 5V DC en kan direct worden gevoed via een microcontroller zoals de ESP32. Bij gebruik met een 3.3V microcontroller moet je een spanningsdeler of logic level shifter gebruiken voor de echo-pin.
 Protocol
 
 **Protocol** 
+
 De HC-SR04 gebruikt een eenvoudige digitale trigger/echo-interface in plaats van een communicatieprotocol zoals I2C of Zigbee. Dit maakt de integratie zeer laagdrempelig, maar vereist nauwkeurige timing in software.
 
 **Bereik**
+
 De sensor heeft een detectiebereik van 2 cm tot 400 cm, met een nauwkeurigheid van ongeveer 3 mm. Ideaal voor toepassingen zoals waterpeildetectie in een regenton of afstandsmeting tot planten in een serre.
 Functies
 
 **Functies**
+
 De HC-SR04 zendt een ultrasoon geluidssignaal uit en meet de tijd totdat het signaal terugkeert. Dit maakt het mogelijk om afstanden zeer precies te berekenen. De sensor heeft geen ingebouwde intelligentie of draadloze functionaliteit, en is dus bedoeld voor directe koppeling aan een microcontroller die de meetwaarden verwerkt.
 
 
 ## Link
+
 [HC-SR04 Ultrasone Sensor](https://opencircuit.be/product/hc-sr04-ultrasonische-afstands-detectie-module)
 
 ---
