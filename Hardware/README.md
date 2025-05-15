@@ -23,7 +23,7 @@ In dit document vind je informatie over de gebruikte hardware zoals de prijs, he
 
 Sensoren spelen een belangrijke rol in huisbeveiliging en domotica. Of het nu gaat om het detecteren van rook of beweging, deze slimme apparaten kunnen bijdragen aan een veiliger en comfortabeler huis. Hieronder worden twee sensoren van Frient besproken, een Deens merk dat bekendstaat om zijn betrouwbare en innovatieve technologie.  
 
-## Rooksensor (Frient Smoke Alarm
+## Rooksensor (Frient Smoke Alarm)
 
 <img src="https://github.com/user-attachments/assets/2870ae2b-5953-4684-929c-a64927c714e2" width="250">  
 
@@ -81,7 +81,7 @@ Dankzij deze functies is de motion sensor niet alleen een beveiligingssensor, ma
 
 ---
 
-## Vochtigheidssensor
+## Vochtigheidssensor (Frient Smart Humidity Sensor)
 
 <img src = "https://github.com/user-attachments/assets/b973c339-6dbf-41c5-bfa3-16e9a8249a69" width ="250">
 
@@ -109,7 +109,7 @@ Naast het meten van de luchtvochtigheid beschikt deze sensor ook over een ingebo
 
 ---
 
-## Waterleksensor
+## Waterleksensor (De Frient Water Leak Detector)
 
 <img src = "https://github.com/user-attachments/assets/50724709-b60a-47e0-a7bb-1d78bdadd7b3" width ="250">
 
@@ -139,7 +139,7 @@ De Frient Water Leak Detector wordt geleverd met een extra probe, die apart is b
 
 ---
 
-## Bodemvochtigheidssensor
+## Bodemvochtigheidssensor (Immax NEO 07523L)
 
 <img src = "https://github.com/user-attachments/assets/fe0d9fe7-ab4b-406f-b521-663b84d6f2a9" width ="250">
 
@@ -167,7 +167,7 @@ Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtem
 
 ---
 
-## Ultrasonesenor
+## Ultrasonesenor (HC-SR04)
 <img src = "https://github.com/user-attachments/assets/e4cac565-319c-44f0-8893-1a36c13f56a0" width ="250">
 
 **Prijs**
