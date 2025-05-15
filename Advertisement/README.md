@@ -1,4 +1,5 @@
 # Advertisement
+In dit document vind je informatie over de instagram posts en de gemaakte affiches.
 
 ## Affiches
 
