@@ -75,6 +75,10 @@ De Frient motion sensor pro is meer dan alleen een bewegingssensor. Hij heeft ex
 
 Dankzij deze functies is de motion sensor niet alleen een beveiligingssensor, maar ook een nuttige toevoeging voor energiebesparing en wooncomfort. Met de Frient rookmelder en motion sensor pro haal je slimme en betrouwbare sensoren in huis die bijdragen aan veiligheid en gemak. Beide apparaten werken met het Zigbee-protocol, hebben een lange batterijduur en zijn eenvoudig te koppelen aan andere smarthome-apparaten.  
 
+
+## Link
+[Frient Motionsensor](https://www.robbshop.nl/frient-motion-sensor-zigbee?utm_source=google&utm_medium=cpc&utm_id=17886090674&utm_term=&utm_content=&gad_source=1&gad_campaignid=17878488618&gclid=Cj0KCQjwoZbBBhDCARIsAOqMEZXs_hfv1eENSX62wfdHWR-ZAn6d35nL_XtGwI8BAUd-ycRjyaeDw00aAs6fEALw_wcB)
+
 ---
 
 ## Vochtigheidssensor
