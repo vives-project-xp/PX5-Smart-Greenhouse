@@ -25,3 +25,4 @@ Uiteindelijk zijn we, in overleg met onze project owner, tot de beslissing gekom
 Hieronder vind je de definitieve uitvoering van de ophanging in de fietsenstalling.
 
 <img src="Behuizing Fietsenstalling.png" style="width: 400px; height: auto;" alt="Uiteindelijke Behuizing">
+
