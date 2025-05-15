@@ -1,11 +1,14 @@
-# Inhoudsopgave
+# Software
+In dit document vind je informatie over hoe je zelf sensoren kan toevoegen, hoe je home assistant instelt en meer informatie over de protocollen die je kan gebruiken.
 
-## Sensoren toevoegen
+## Inhoudsopgave
+
+### Sensoren toevoegen
 - [Protocollen](#protocollen)
 - [Voorbeelden](#voorbeelden)
 
 
-## Home Assistant Dashboard
+### Home Assistant Dashboard
 - [Installatie](#stap-1-home-assistant-downloaden)
 - [Dashboard maken](#stap-3-een-nieuw-dashboard-toevoegen)
 - [Kaarten toevoegen](#stap-5-kaarten-toevoegen-aan-je-dashboard)
@@ -14,18 +17,18 @@
 - [Externe toegang](#stap-8-dashboard-beschikbaar-maken-op-externe-apparaten)
 - [Ons Dashboard](#Ons-Dashboard)
 
-## ESP installeren
+### ESP installeren
 - [Wat?](#Uitleg)
 - [Benodigdheden](#Benodigdheden)
 - [Protocol](#Protocol)
-# Sensoren toevoegen
+## Sensoren toevoegen
 
-## Wat?
+### Wat?
 Dit is een handleiding voor het toevoegen van nieuwe sensoren aan Home Assistant. We tonen stap voor stap met tekst en afbeeldingen hoe je dit eenvoudig doet.
 
 ---
 
-## Benodigdheden
+### Benodigdheden
 
 - Home Assistant
 - Home Assistant URL
@@ -37,7 +40,7 @@ Dit is een handleiding voor het toevoegen van nieuwe sensoren aan Home Assistant
 
 ---
 
-## Protocollen
+### Protocollen
 
 - [Zigbee](#zigbee-stappenplan)
 - [Wi-Fi](#wi-fi-stappenplan)
@@ -46,7 +49,7 @@ Dit is een handleiding voor het toevoegen van nieuwe sensoren aan Home Assistant
 - [Thread](#thread-stappenplan)
 - [Probleemoplossing](#optimalisatie-en-probleemoplossing)
 
-### Zigbee: Stappenplan
+#### Zigbee: Stappenplan
 
 1. Download de Zigbee2MQTT add-on.
 2. Open Home Assistant via `http://homeassistant.local:8123`.
@@ -59,14 +62,14 @@ Dit is een handleiding voor het toevoegen van nieuwe sensoren aan Home Assistant
 
 ---
 
-### Wi-Fi: Stappenplan
+#### Wi-Fi: Stappenplan
 
-#### Benodigdheden
+##### Benodigdheden
 - Home Assistant (op Raspberry Pi, mini-pc of NAS)
 - 2.4GHz Wi-Fi-router
 - Wi-Fi-compatibele smarthome-apparaten (bv. Shelly, Sonoff, TP-Link)
 
-#### Installatie
+##### Installatie
 
 **Methode 1: Automatische installatie via Home Assistant**
 1. Ga naar **Instellingen > Integraties**.
@@ -97,7 +100,7 @@ ota:
 
 ---
 
-### Z-Wave: Stappenplan
+#### Z-Wave: Stappenplan
 
 1. Sluit de Z-Wave dongle aan op je apparaat.
 2. Ga naar [Home Assistant Z-Wave integratie](https://www.home-assistant.io/integrations/zwave_js/).
@@ -108,13 +111,13 @@ ota:
 
 ---
 
-### Bluetooth: Stappenplan
+#### Bluetooth: Stappenplan
 
 **Methodes:**
 1. Bluetooth Proxy (ESP32)
 2. Lokale Bluetooth-adapter
 
-#### Installatie met ESPHome
+##### Installatie met ESPHome
 
 ```yaml
 esphome:
@@ -140,7 +143,7 @@ ota:
 
 ---
 
-### Thread: Stappenplan
+#### Thread: Stappenplan
 
 1. Controleer of je installatie Thread ondersteunt (bv. HomePod Mini, Google Nest Hub, Home Assistant Skyconnect).
 2. Voeg een **Thread Border Router** toe.
