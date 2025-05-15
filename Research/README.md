@@ -4,21 +4,9 @@ Onderzoek naar de werking, eigenschappen en toepassingen van sensoren, pompen, m
 
 ## Inhoudstafel
 
-1. [Sensoren](#Sensoren)
-2. [Pompen](#Pompen)
-3. [Motoren](#Motoren)
-4. [Zonnepanelen](#Zonnepanelen)
-5. [Batterijen](#Batterijen)
+1. [Research](/Research/Research.xlsx)
+2. [Wired Sensor With ESP32](/Research/Wired-sensor-with-esp32)
 
 ## Sensoren
 
-- Opzoeken van verschillende sensoren: Rooksensor, Bewegingssensor, Vochtigheidsensor, Waterleksensor, Bodemvochtigheidsensor
-- Belangrijkste merk: Frient
-- 
 ## Pompen
-
-## Motoren
-
-## Zonnepanelen
-
-## Batterijen
