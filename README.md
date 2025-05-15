@@ -54,8 +54,8 @@ Het systeem maakt gebruik van zowel hardware als software:
 ## Begin en Eind Affiche
 
 <div style="display: flex; gap: 10px;">
-   <img src="https://github.com/user-attachments/assets/34eaa290-13ab-4389-9311-ffae79a41bab" height="400">
-    <img src="https://github.com/user-attachments/assets/cc6528d0-0edf-481d-bcb7-a2806c479c12" height="400">
+   <img src="https://github.com/user-attachments/assets/34eaa290-13ab-4389-9311-ffae79a41bab" height="500" width="auto">
+    <img src="https://github.com/user-attachments/assets/cc6528d0-0edf-481d-bcb7-a2806c479c12" height="500" width="auto">
 </div>
 
 
