@@ -171,7 +171,7 @@ Voor meer informatie over hoe je sensoren moet toevoegen, kan dit onderste besta
 
 ## Inhoudstafel
 - [BME280 (milieu-sensor)](#installatie-van-de-bme280)
-- [CO₂-sensor MH-Z19](#Installatie-van-de--CO₂-sensor-MH-Z19)
+- [CO₂-sensor MH-Z19](#Installatie-van-de-CO2-sensor-MH-Z19)
 
 ---
 
@@ -251,7 +251,7 @@ Ga naar het tab **Instellingen** -> **Add-ons** -> **Add-on winkel** -> **Zoek n
 
 
 
-## Installatie van de CO₂-sensor MH-Z19
+## Installatie van de CO2-sensor MH-Z19
 
 ### Benodigdheden:
 - Microcontroller: **ESP32-C3-DevKitC-02**
