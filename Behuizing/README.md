@@ -18,9 +18,10 @@ Een andere oplossing was om de behuizing van hout te maken. Hoewel dit steviger 
 ## Finale Idee : Behuizing
 
 Uiteindelijk zijn we, in overleg met onze project owner, tot de beslissing gekomen om een plastic behuizing te kopen. We kozen voor een model dat waterdicht en stevig is, zodat we het kunnen gebruiken en indien nodig nog aanpassingen kunnen doen.
-<img src="Plast Enclosure.png" style="width: 400px; height: auto;" alt="Plastic behuizing">
+<img src="Plastic Enclosure.png" style="width: 400px; height: auto;" alt="Plastic behuizing">
 
 ## Uiteindelijke uitwerking
 
 Hieronder vind je de definitieve uitvoering van de ophanging in de fietsenstalling.
+
 <img src="Behuizing Fietsenstalling.png" style="width: 400px; height: auto;" alt="Uiteindelijke Behuizing">
