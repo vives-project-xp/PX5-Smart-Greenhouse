@@ -131,6 +131,10 @@ Helaas is er geen specifieke informatie beschikbaar over het exacte draadloze be
 ### Functies
 De Frient Water Leak Detector wordt geleverd met een extra probe, die apart is bijgekocht. Dankzij deze probe kan de sensor worden geplaatst op moeilijk bereikbare plekken, zoals onder kasten of in krappe ruimtes. De sensor heeft daarnaast een ingebouwde temperatuursensor, waardoor hij niet alleen waterlekken detecteert, maar ook temperatuurfluctuaties kan registreren.
 
+
+## Link
+[Frient Water Leak](https://www.robbshop.nl/frient-water-leak-detector-probe-zigbee)
+
 ---
 
 ## Bodemvochtigheidssensor
