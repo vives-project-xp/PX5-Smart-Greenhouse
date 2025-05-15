@@ -1,4 +1,4 @@
-![esp32-c3-devkitc-02-v1-pinout](https://github.com/user-attachments/assets/001f4d8e-1994-4abc-9e27-435f77f7e6e5)# Inhoudsopgave
+# Inhoudsopgave
 
 ## Sensoren toevoegen
 - [Protocollen](#protocollen)
