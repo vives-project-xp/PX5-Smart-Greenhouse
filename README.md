@@ -72,6 +72,7 @@ Het systeem maakt gebruik van zowel hardware als software:
 | [**Behuizing**](/Behuizing) | Info over de behuizing van het project   |
 | [**Datasheets**](/Datasheets) | Technische fiches van de gebruikte producten |
 | [**Netwerk**](/Networking)  | Details over het gebruikte netwerk       |
+| [**Research**](/Research)   | De onderdelen die we onderzocht hebben        |
 
 
 
