@@ -12,6 +12,7 @@
 - [Automatiseringen](#stap-6-automatiseringen-en-scripts-toevoegen)
 - [Personaliseren](#stap-7-dashboard-personaliseren)
 - [Externe toegang](#stap-8-dashboard-beschikbaar-maken-op-externe-apparaten)
+- [Ons Dashboard](#stap-9-Onze-raw-configuration-file)
 
 ## ESP installeren
 - [Wat?](#Uitleg)
@@ -281,6 +282,15 @@ action:
 Wil je jouw dashboard bekijken op je telefoon of tablet? 
 - Installeer de **Home Assistant Companion App** (Android/iOS).
 - Gebruik **Nabu Casa**, **DuckDNS** of **Tailscale** voor externe toegang.
+
+## Stap 9: Onze raw configuration file
+Wil je ons dashboard gebruiken op Home Assistant gebruik dan dit stappenplan.
+Je doet dit door de raw configuration editor te gebruiken. 
+1. Druk op het potlood rechtsboven.
+2. Druk daarna op de 3 punten.
+3. Selecteer raw configuration editor.
+4. Plak dan deze code in de raw configuration editor.
+5. Je zult wel de entiteiten moeten aanpassen.
 
 ---
 ### ESP32-C6 Zigbee (Compatible firmware)
