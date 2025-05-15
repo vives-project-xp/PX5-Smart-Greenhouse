@@ -9,4 +9,10 @@ Onderzoek naar de werking, eigenschappen en toepassingen van sensoren, pompen, m
 
 ## Sensoren
 
-## 
+## Pompen
+
+## Motoren
+
+## Zonnepanelen
+
+## Batterijen
