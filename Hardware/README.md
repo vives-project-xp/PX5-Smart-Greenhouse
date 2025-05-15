@@ -192,6 +192,10 @@ Functies
 **Functies**
 De HC-SR04 zendt een ultrasoon geluidssignaal uit en meet de tijd totdat het signaal terugkeert. Dit maakt het mogelijk om afstanden zeer precies te berekenen. De sensor heeft geen ingebouwde intelligentie of draadloze functionaliteit, en is dus bedoeld voor directe koppeling aan een microcontroller die de meetwaarden verwerkt.
 
+
+## Link
+[HC-SR04 Ultrasone Sensor](https://opencircuit.be/product/hc-sr04-ultrasonische-afstands-detectie-module)
+
 ---
 
 ### Zigbee-dongle
