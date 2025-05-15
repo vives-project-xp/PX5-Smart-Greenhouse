@@ -161,6 +161,10 @@ Deze sensor heeft een relatief groot bereik van 12 meter, wat betekent dat hij i
 ### Functies
 Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtemperatuursensor. Dit is vooral handig voor toepassingen in tuinieren en plantenverzorging, omdat het helpt bij het optimaliseren van de groeiomstandigheden door zowel de vochtigheid als de temperatuur van de bodem te monitoren.
 
+
+## Link
+[Immax NEO 07523L](https://www.lumimania.be/immax-neo-07523l-bodemvocht-en-temperatuursensor-2xaa-tuya-ip67/)
+
 ---
 
 ## Ultrasonesenor
