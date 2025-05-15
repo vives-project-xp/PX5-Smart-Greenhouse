@@ -1,4 +1,6 @@
 # Software
+In dit document vind je informatie over hoe je zelf sensoren kan toevoegen, hoe je home assistant instelt en meer informatie over de protocollen die je kan gebruiken.
+
 ## Inhoudsopgave
 
 ### Sensoren toevoegen
