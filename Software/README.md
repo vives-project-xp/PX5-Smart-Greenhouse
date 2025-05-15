@@ -291,7 +291,43 @@ Je doet dit door de raw configuration editor te gebruiken.
 3. Selecteer raw configuration editor.
 4. Plak dan deze code in de raw configuration editor.[Dashboard](/Software/Dashboard.md)
 5. Je zult wel de entiteiten moeten aanpassen.
+6. Om het watervat werkend te krijgen zul je ook deze helpers moeten instellen.![image](https://github.com/user-attachments/assets/ee7db8eb-0936-46d6-b6c9-4d98619aee1a)
+   
+### De Balk breedte
+1. Stel een minimumwaarde in van 0.
+2. Stel een maximumwaarde in van 300.
+3. Weergavemodus: invoerveld.
+4. Stapgrootte: 0.1.
+5. Meeteenheid: cm.
 
+### Balk Vat lengte
+1. Stel een minimumwaarde in van 0.
+2. Stel een maximumwaarde in van 300.
+3. Weergavemodus: invoerveld.
+4. Stapgrootte 0.1.
+5. Meeteenheid: cm.
+
+### Diameter vat
+1. Stel een minimumwaarde in van 0.
+2. Stel een Maximumwaarde in van 300.
+3. Weergavemodus: Invoerveld
+4. Stapgrootte: 0.1
+5. Meeteenheid: cm
+   
+### Hoogte vat
+1. Stel een minimumwaarde in van 0.
+2. Stel een Maximumwaarde in van 300.
+3. Weergavemodus: Invoerveld
+4. Stapgrootte: 0.1
+5. Meeteenheid: cm
+
+### Input_select
+1. Opties: Cilinder
+         : Balk
+
+### Inhoud Vat Dynamisch
+1. Stel meeteenheid L in
+2. Precisie weergeven: standaard (0,0)
 ---
 ### ESP32-C6 Zigbee (Compatible firmware)
 #### Uitleg
