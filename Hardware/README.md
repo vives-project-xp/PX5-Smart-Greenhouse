@@ -133,7 +133,8 @@ De Frient Water Leak Detector wordt geleverd met een extra probe, die apart is b
 
 
 ## Link
-[Frient Water Leak](https://www.robbshop.nl/frient-water-leak-detector-probe-zigbee)
+[Frient Water Leak Probe](https://www.robbshop.nl/frient-water-leak-detector-probe-zigbee)
+[Frient Water Leak ](https://www.robbshop.nl/frient-water-leak-detector-zigbee)
 
 ---
 
