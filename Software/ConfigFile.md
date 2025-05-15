@@ -1,3 +1,4 @@
+````YAML
 # Loads default set of integrations. Do not remove.
 default_config:
 
