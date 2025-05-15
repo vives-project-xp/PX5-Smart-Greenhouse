@@ -25,7 +25,7 @@ Het team van Smart Greenhouse bestaat uit:
   Dit zorgt ervoor dat je zelf de serre niet de hele tijd in de gaten moet houden.
 
 ## Voorstelling van het project
- <img src="https://github.com/vives-project-xp/PX5-Smart-Greenhouse/blob/main/Schema's/scenario's/Final%20Schema.png" height="500">
+ <img src="images/Final Schema.png" height="500">
 
 
 
@@ -47,7 +47,7 @@ Het systeem maakt gebruik van zowel hardware als software:
 
 <div style="display: flex; gap: 10px;">
    <img src="https://github.com/user-attachments/assets/ed7a53dc-a937-4934-b67c-e634f356960d" height="300">
-    <img src="https://github.com/user-attachments/assets/dbd9272b-95d0-4c99-98ac-92034b409ac7" height="300">
+    <img src="images/dashboard.png" height="300">
 </div>
 
 
@@ -55,8 +55,8 @@ Het systeem maakt gebruik van zowel hardware als software:
 ## Begin en Eind Affiche
 
 <div style="display: flex; gap: 10px;">
-   <img src="https://github.com/user-attachments/assets/34eaa290-13ab-4389-9311-ffae79a41bab" height="500" width="auto">
-    <img src="https://github.com/user-attachments/assets/cc6528d0-0edf-481d-bcb7-a2806c479c12" height="500" width="auto">
+   <img src="images/posterV1.png" height="500" width="auto">
+    <img src="images/posterV2.png" height="500" width="auto">
 </div>
 
 

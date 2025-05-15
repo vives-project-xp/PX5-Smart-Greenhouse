@@ -43,7 +43,7 @@ De rookmelder maakt gebruik van het Zigbee-protocol. Dit protocol staat bekend o
 Het draadloze bereik van deze sensor is 8 meter, wat betekent dat hij gemakkelijk verbinding kan maken met andere Zigbee-apparaten binnen dit bereik.  
 
 ## Link
-[Frient Rookmelder](https://www.robbshop.nl/frient-rookmelder-intelligent-smoke-alarm-zigbee)
+[Frient Smoke Alarm](https://www.robbshop.nl/frient-rookmelder-intelligent-smoke-alarm-zigbee)
 
 ---
 
@@ -102,6 +102,10 @@ De sensor heeft een maximaal bereik van 8 meter. Dit betekent dat hij ideaal is 
 
 ### Functies
 Naast het meten van de luchtvochtigheid beschikt deze sensor ook over een ingebouwde temperatuursensor. Dit maakt het mogelijk om zowel de vochtigheid als de temperatuur in een ruimte in de gaten te houden, wat handig kan zijn voor klimaatbeheersing binnen een smart home.
+
+
+## Link
+[Frient Smart Humidity Sensor](https://www.robbshop.nl/frient-smart-humidity-sensor-zigbee)
 
 ---
 
