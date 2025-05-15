@@ -292,7 +292,7 @@ Wil je jouw dashboard bekijken op je telefoon of tablet?
 4. Vink de optie weergeven in zijbalk aan.
 5. Herstart Home Assistant.
 6. Daarna zie je in de zijbalk file editor.
-7. Gebruik dan deze [Configuratie code] (/Software/ConfigFile.md) en plak dit in de file editor.
+7. Gebruik dan deze [Configuratie code](/Software/ConfigFile.md) en plak dit in de file editor.
    
 ## Onze raw configuration file
 
