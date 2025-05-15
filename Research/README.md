@@ -12,6 +12,9 @@ Onderzoek naar de werking, eigenschappen en toepassingen van sensoren, pompen, m
 
 ## Sensoren
 
+- Opzoeken van verschillende sensoren: Rooksensor, Bewegingssensor, Vochtigheidsensor, Waterleksensor, Bodemvochtigheidsensor
+- Belangrijkste merk: Frient
+- 
 ## Pompen
 
 ## Motoren
