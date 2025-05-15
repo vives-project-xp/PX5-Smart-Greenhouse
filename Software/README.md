@@ -172,6 +172,7 @@ Voor meer informatie over hoe je sensoren moet toevoegen, kan dit onderste besta
 ### Inhoudstafel
 - [BME280 (milieu-sensor)](#installatie-van-de-bme280)
 - [CO₂-sensor MH-Z19](#Installatie-van-de-CO2-sensor-MH-Z19)
+- [Ultrasone Sensor](#Ultrasone-Sensor)
 
 ---
 
@@ -329,7 +330,7 @@ wifi:
   ````
 - Nu kan je de sensor in je dashboard gebruiken, door het toe te voegen via de eniteiten 
 
-### Installatie ultrasone sensor
+### Ultrasone Sensor
 
 #### Benodigdheden:
 - Microcontroller: **ESP32-C3-DevKitC-02**
