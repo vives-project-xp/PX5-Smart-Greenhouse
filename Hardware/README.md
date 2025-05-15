@@ -6,10 +6,12 @@
 4. [Vochtigheidssensor](#vochtigheidssensor)
 5. [Waterleksensor](#waterleksensor)
 6. [Bodemvochtigheidssensor](#bodemvochtigheidssensor)
-7. [Raspberry Pi 5](#raspberry-pi-5)
-8. [Mini-PC](#mini-pc)
-9. [Esp32-C6](#)
-10. [Motoren](#-lineaire-actuator-aansturen-met-h-brug)
+7. [Ultrasonesensor](#ultrasonesenor)
+8. [Zigbee-dongle](#zigbee-dongle)
+9. [Raspberry Pi 5](#raspberry-pi-5)
+10. [Mini-PC](#mini-pc)
+11. [Esp32-C6](#esp32-c6-mini-1)
+12. [Motoren](#motoren)
 
 
 
@@ -36,7 +38,7 @@ De rookmelder maakt gebruik van het Zigbee-protocol. Dit protocol staat bekend o
 
 ### Bereik  
 Het draadloze bereik van deze sensor is 8 meter, wat betekent dat hij gemakkelijk verbinding kan maken met andere Zigbee-apparaten binnen dit bereik.  
-
++
 ---
 
 ## Bewegingssensor 
@@ -142,10 +144,37 @@ Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtem
 
 ---
 
+## Ultrasonesenor
+<img src = "https://github.com/user-attachments/assets/e4cac565-319c-44f0-8893-1a36c13f56a0" width ="250">
+
+**Prijs**
+De ultrasone afstandssensor is verkrijgbaar voor ongeveer €2 à €4, wat het een van de goedkoopste afstandssensoren op de markt maakt. Hierdoor is het een budgetvriendelijke keuze voor basisafstandsmetingen in projecten zoals een smart greenhouse.
+Merk
+
+**Merk**
+De meest gebruikte variant is de HC-SR04, geproduceerd door verschillende fabrikanten wereldwijd. Het is een generieke sensor en wordt vaak aangeboden door elektronicawinkels onder verschillende merknamen.
+Voeding
+
+**Voeding**
+De sensor werkt op een spanning van 5V DC en kan direct worden gevoed via een microcontroller zoals de ESP32. Bij gebruik met een 3.3V microcontroller moet je een spanningsdeler of logic level shifter gebruiken voor de echo-pin.
+Protocol
+
+**Protocol** 
+De HC-SR04 gebruikt een eenvoudige digitale trigger/echo-interface in plaats van een communicatieprotocol zoals I2C of Zigbee. Dit maakt de integratie zeer laagdrempelig, maar vereist nauwkeurige timing in software.
+
+**Bereik**
+De sensor heeft een detectiebereik van 2 cm tot 400 cm, met een nauwkeurigheid van ongeveer 3 mm. Ideaal voor toepassingen zoals waterpeildetectie in een regenton of afstandsmeting tot planten in een serre.
+Functies
+
+**Functies**
+De HC-SR04 zendt een ultrasoon geluidssignaal uit en meet de tijd totdat het signaal terugkeert. Dit maakt het mogelijk om afstanden zeer precies te berekenen. De sensor heeft geen ingebouwde intelligentie of draadloze functionaliteit, en is dus bedoeld voor directe koppeling aan een microcontroller die de meetwaarden verwerkt.
+
+---
+
 ### Zigbee-dongle
 - **Conbee II Zigbee USB-Gateway**
 - Deze USB-dongle zorgt ervoor dat we de zigbee sensoren kunnen vinden en in Home-Assistant gebruiken.
-
+---
 ### Raspberry PI 5
 - **Raspberry PI 5 8GB**
 - **OS**: Raspberry PI OS
@@ -156,11 +185,36 @@ Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtem
 - **OS**: Home Assistant OS
 - De mini-pc is ons centrale systeem. Op deze pc draait Home Assistant, waarop de Zigbee-dongle alle signalen ontvangt. Deze mini-pc voorziet ook de Raspberry Pi van stroom.
 
-## 🔩 Lineaire Actuator Aansturen met H-Brug
+---
+
+## ESP32-C6-Mini-1
+<img src = "https://github.com/user-attachments/assets/bf3de0bb-26bb-4b97-97e8-9fd751d301a8" width ="250">
+
+
+### Prijs
+We hebben de ESP32 aangekocht voor ongeveer €15.
+
+### Merk
+De ESP32 is van het merk Espressif.
+
+### Voeding
+1) 3.3V voeding
+2) 5V voeding
+3) USB-C aansluiting
+
+### Functies
+- Wi-Fi
+- Zigbee
+- Bluetooth
+- Thread
+
+## Motoren
+
+### Lineaire Actuator Aansturen met H-Brug
 
 Dit project laat zien hoe je een lineaire actuator kunt aansturen met behulp van een microcontroller (zoals een Arduino of STM32) en een H-brug motorstuurcircuit (zoals L298N of BTS7960).
 
-### 📦 Benodigde Componenten
+### Benodigde Componenten
 
 - Microcontroller (Arduino Uno / STM32 / ESP32 / ...)
 - H-brug motorstuurcircuit (bv. L298N, BTS7960)
@@ -169,11 +223,11 @@ Dit project laat zien hoe je een lineaire actuator kunt aansturen met behulp van
 - Weerstanden, jumper wires, breadboard of soldeerboard
 - Eventueel eindschakelaars (limit switches)
 
-### ⚙️ Basiswerking
+### Basiswerking
 
 De H-brug laat toe om de polariteit van de spanning naar de actuator te wijzigen, waardoor deze in- of uitschuift. Door beide inputs laag of PWM te gebruiken, kun je de actuator ook stoppen of regelen.
 
-### 🔌 Aansluitschema (voorbeeld met L298N)
+### Aansluitschema (voorbeeld met L298N)
 
 | Microcontroller | L298N IN | Functie        |
 |------------------|-----------|----------------|
@@ -185,7 +239,7 @@ De H-brug laat toe om de polariteit van de spanning naar de actuator te wijzigen
 | Actuator +       | OUT1      | Naar actuator (polariteit) |
 | Actuator -       | OUT2      | Naar actuator (polariteit) |
 
-### 🧠 Arduino Voorbeeldcode
+### Arduino Voorbeeldcode
 
 ```cpp
 int in1 = 2;
