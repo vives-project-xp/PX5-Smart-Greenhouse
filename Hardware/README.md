@@ -41,7 +41,7 @@ De rookmelder maakt gebruik van het Zigbee-protocol. Dit protocol staat bekend o
 
 ### Bereik  
 Het draadloze bereik van deze sensor is 8 meter, wat betekent dat hij gemakkelijk verbinding kan maken met andere Zigbee-apparaten binnen dit bereik.  
-+
+
 ---
 
 ## Bewegingssensor 
@@ -70,8 +70,7 @@ De Frient motion sensor pro is meer dan alleen een bewegingssensor. Hij heeft ex
 - **Temperatuursensor:** Houdt de omgevingstemperatuur in de gaten, wat handig kan zijn voor klimaatregeling.  
 - **Lichtsensor:** Meet de hoeveelheid omgevingslicht, wat bijvoorbeeld kan worden gebruikt om verlichting automatisch aan te passen op basis van het daglicht.  
 
-Dankzij deze functies is de motion sensor niet alleen een beveiligingssensor, maar ook een nuttige toevoeging voor energiebesparing en wooncomfort.  
-Met de Frient rookmelder en motion sensor pro haal je slimme en betrouwbare sensoren in huis die bijdragen aan veiligheid en gemak. Beide apparaten werken met het Zigbee-protocol, hebben een lange batterijduur en zijn eenvoudig te koppelen aan andere smarthome-apparaten.  
+Dankzij deze functies is de motion sensor niet alleen een beveiligingssensor, maar ook een nuttige toevoeging voor energiebesparing en wooncomfort. Met de Frient rookmelder en motion sensor pro haal je slimme en betrouwbare sensoren in huis die bijdragen aan veiligheid en gemak. Beide apparaten werken met het Zigbee-protocol, hebben een lange batterijduur en zijn eenvoudig te koppelen aan andere smarthome-apparaten.  
 
 ---
 
