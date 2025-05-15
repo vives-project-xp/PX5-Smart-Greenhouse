@@ -256,7 +256,7 @@ De ESP32 is van het merk Espressif.
 
 
 ## Link
-[ESP32-C6]([https://www.kiwi-electronics.com/nl/raspberry-pi-5-8gb-11580?country=BE&gad_source=1&gad_campaignid=292887425&gclid=Cj0KCQjwoZbBBhDCARIsAOqMEZVC8HO3ejd82HtUgTYnqBIbDYJkEdK7Hj4c6GZDAywRIse9Jk2WQUYaAvcYEALw_wcB](https://www.tinytronics.nl/nl/development-boards/microcontroller-boards/met-wi-fi/espressif-esp32-c6-devkitm-1))
+[ESP32-C6](https://www.tinytronics.nl/nl/development-boards/microcontroller-boards/met-wi-fi/espressif-esp32-c6-devkitm-1)
 
 
 ## Motoren
