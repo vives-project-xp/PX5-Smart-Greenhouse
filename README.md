@@ -73,7 +73,7 @@ Het systeem maakt gebruik van zowel hardware als software:
 | [**Datasheets**](/Datasheets) | Technische fiches van de gebruikte producten |
 | [**Netwerk**](/Networking)  | Details over het gebruikte netwerk       |
 | [**Research**](/Research)   | De onderdelen die we onderzocht hebben        |
-
+| [**Advertisement**](/Advertisement)   | Onze gemaakte affiches en instagram posts        |
 
 
 
