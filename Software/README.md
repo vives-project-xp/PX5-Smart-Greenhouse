@@ -1,4 +1,4 @@
-# Inhoudsopgave
+![esp32-c3-devkitc-02-v1-pinout](https://github.com/user-attachments/assets/001f4d8e-1994-4abc-9e27-435f77f7e6e5)# Inhoudsopgave
 
 ## Sensoren toevoegen
 - [Protocollen](#protocollen)
@@ -188,7 +188,7 @@ Voor meer informatie over hoe je sensoren moet toevoegen, kan dit onderste besta
 
 
 **Pin-out van de microcontroller:** 
-<img src=".\ESP32C3.png" style="width: 400px; height: auto;">
+<img src="https://github.com/user-attachments/assets/d32e71e5-2175-4ef9-8189-3dc476b0c427" style="width: 400px; height: auto;">
 #### Verbinding:
 
 | **BME280 Pin** | **ESP32-C3 GPIO** | **Naam op bord** | **Opmerking**               |
