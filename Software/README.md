@@ -329,6 +329,184 @@ wifi:
   ````
 - Nu kan je de sensor in je dashboard gebruiken, door het toe te voegen via de eniteiten 
 
+### Installatie ultrasone sensor
+
+#### Benodigdheden:
+- Microcontroller: **ESP32-C3-DevKitC-02**
+- HC-SR04 Ultrasone sensor
+- Arduino IDE  
+- Jumper wires
+- Google Chrome
+
+---
+
+
+**Pin-out van de microcontroller:** 
+
+
+#### Verbinding:
+
+| **HC-SR04**    | **ESP32-C3 GPIO** | **Naam op bord** | **Opmerking**               |
+|----------------|-------------------|------------------|-----------------------------|
+| VCC            | 5V                | 5V               | Enkel 5V gebruiken          |
+| GND            | GND               | GND              | Aarde                       |
+| Trig           | GPIO2             | D2               | GPIO pin                    |
+| Echo           | GPIO5             | D5               | GPIO pin                    |
+
+#### Arduino IDE
+
+Ga naar arduino en download de laatste versie van de software.
+Download ook de wifi.h en PubSubClient.h library.
+Zet daarna deze code in en flash deze op de ESP32 C3.
+
+````Cpp
+#include <WiFi.h>
+#include <PubSubClient.h>
+
+const int trigPin = 5;
+const int echoPin = 18;
+
+const char* ssid = "Smart Greenhouse";
+const char* password = "admin123";
+const char* mqtt_server = "192.168.1.105";
+const char* mqtt_user = "esp32";
+const char* mqtt_pass = "esp32pass";
+
+#define MAX_HEIGHT_CM 15.5
+#define MAX_VOLUME_LITER 0.473
+
+WiFiClient espClient;
+PubSubClient client(espClient);
+
+void setup_wifi() {
+  delay(10);
+  Serial.println();
+  Serial.print("Verbinden met ");
+  Serial.println(ssid);
+
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+
+  Serial.println("");
+  Serial.println("WiFi verbonden");
+  Serial.println("IP adres: ");
+  Serial.println(WiFi.localIP());
+}
+
+void reconnect() {
+  while (!client.connected()) {
+    Serial.print("Verbinding maken met MQTT...");
+    if (client.connect("ESP32C6Client", mqtt_user, mqtt_pass)) {
+      Serial.println("Verbonden met MQTT broker");
+    } else {
+      Serial.print("Mislukt, rc=");
+      Serial.print(client.state());
+      Serial.println(" opnieuw proberen over 5 seconden");
+      delay(5000);
+    }
+  }
+}
+
+void setup() {
+  Serial.begin(115200);
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  
+  setup_wifi();
+  client.setServer(mqtt_server, 1883);
+}
+
+void loop() {
+  if (!client.connected()) {
+    reconnect();
+  }
+  client.loop();
+
+  // Ultrasoon meten
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+
+  long duration = pulseIn(echoPin, HIGH);
+  float distance = duration * 0.034 / 2;
+
+  // Hoogte water = totale hoogte - gemeten afstand
+  float waterHeight = MAX_HEIGHT_CM - distance;
+  if (waterHeight < 0) waterHeight = 0;
+  if (waterHeight > MAX_HEIGHT_CM) waterHeight = MAX_HEIGHT_CM;
+
+  float liters = (waterHeight / MAX_HEIGHT_CM) * MAX_VOLUME_LITER;
+
+  // Debug via serial monitor
+  Serial.print("Gemeten afstand: ");
+  Serial.print(distance);
+  Serial.println(" cm");
+
+  Serial.print("Inhoud vat: ");
+  Serial.print(liters, 3);
+  Serial.println(" liter");
+
+  // Versturen via MQTT
+  char msg_cm[16];
+  dtostrf(distance, 6, 2, msg_cm);
+  client.publish("sensor/afstand/cm", msg_cm);
+
+  char msg_liter[16];
+  dtostrf(liters, 6, 3, msg_liter);
+  client.publish("sensor/vat/liter", msg_liter);
+
+  delay(2000);
+}
+````
+
+
+
+#### 1) ESPHome installeren
+Ga naar het tab **Instellingen** -> **Add-ons** -> **Add-on winkel** -> **Zoek naar ESPHome Home Device Builder** 
+- Druk op "**Installeren**" en zet de optie "**Start bij opstarten aan**
+- Herstart Home Assistant
+
+#### 2) ESP32 toevoegen aan ESPHome
+- Ga naar het tab genaamd "**ESPHomeBuilder**"
+- Druk op "**+ New Device**"
+- Geef het apparaat een naam en kies bij device type de "**ESP32-C3**"
+- Kies de optie "**Plug into this computer**"
+- **Verbind** je ESP32 via een usb kabel met je computer
+- Druk op "**connect**"
+- Nu is je "**ESP32**" verbonden
+
+#### 3) Pas de ESP32 code aan 
+- Druk op de knop **edit** bij ESPHome van je ESP32
+- Pas je code aan voor je wifi netwerk en pas deze regel aan: 
+
+ ````yaml
+  wifi:
+  ssid: JouwWifiNaam
+  password: JouwWifiWacthwoord
+  ````
+-  
+#### 4) Sensor toevoegen
+
+- Voeg de code toe via de "**edit**" button
+- Code :
+
+
+````yaml
+sensor:
+  - platform: ultrasonic
+    trigger_pin: D1
+    echo_pin: D2
+    name: "Ultrasonic Distance"
+    update_interval: 2s
+````
+- Nu kan je de sensor in je dashboard gebruiken, door het toe te voegen via de eniteiten 
+
+
 
 
 # Home Assistant Dashboard Maken
