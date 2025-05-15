@@ -9,5 +9,6 @@ Onderzoek naar de werking, eigenschappen en toepassingen van sensoren, pompen, m
 
 ## Research
 
+Bij research vind je een excel met al onze research voor de verschillende fase's.
 
 ## Wired Sensor With ESP32
