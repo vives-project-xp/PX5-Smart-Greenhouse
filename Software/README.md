@@ -171,7 +171,7 @@ Voor meer informatie over hoe je sensoren moet toevoegen, kan dit onderste besta
 
 ## Inhoudstafel
 - [BME280 (milieu-sensor)](#installatie-van-de-bme280)
-- [CO₂-sensor MH-Z19](#installatie-van-de-co2-sensor)
+- [CO₂-sensor MH-Z19](#Installatie-van-de--CO₂-sensor-MH-Z19)
 
 ---
 
