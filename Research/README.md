@@ -7,6 +7,7 @@ Onderzoek naar de werking, eigenschappen en toepassingen van sensoren, pompen, m
 1. [Research](/Research/Research.xlsx)
 2. [Wired Sensor With ESP32](/Research/Wired-sensor-with-esp32)
 
-## Sensoren
+## Research
 
-## Pompen
+
+## Wired Sensor With ESP32
