@@ -1,3 +1,4 @@
+# Smart Greenhouse
 ## Inhoudstafel
 - [Team](#Team)
 - [Doel](#Doel)
