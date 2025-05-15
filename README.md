@@ -25,7 +25,7 @@ Het team van Smart Greenhouse bestaat uit:
   Dit zorgt ervoor dat je zelf de serre niet de hele tijd in de gaten moet houden.
 
 ## Voorstelling van het project
- <img src="https://github.com/user-attachments/assets/884ad572-81ab-4c8f-9c20-52b59f5506f5" height="500">
+ <img src="https://github.com/vives-project-xp/PX5-Smart-Greenhouse/blob/main/Schema's/scenario's/Final%20Schema.png" height="500">
 
 
 
