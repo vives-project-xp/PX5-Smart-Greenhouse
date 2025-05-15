@@ -12,7 +12,7 @@
 - [Automatiseringen](#stap-6-automatiseringen-en-scripts-toevoegen)
 - [Personaliseren](#stap-7-dashboard-personaliseren)
 - [Externe toegang](#stap-8-dashboard-beschikbaar-maken-op-externe-apparaten)
-- [Ons Dashboard](#stap-9-Onze-raw-configuration-file)
+- [Ons Dashboard](#Ons-Dashboard)
 
 ## ESP installeren
 - [Wat?](#Uitleg)
