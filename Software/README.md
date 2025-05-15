@@ -188,7 +188,9 @@ Voor meer informatie over hoe je sensoren moet toevoegen, kan dit onderste besta
 
 
 **Pin-out van de microcontroller:** 
+
 <img src="https://github.com/user-attachments/assets/d32e71e5-2175-4ef9-8189-3dc476b0c427" style="width: 400px; height: auto;">
+
 #### Verbinding:
 
 | **BME280 Pin** | **ESP32-C3 GPIO** | **Naam op bord** | **Opmerking**               |
@@ -263,6 +265,7 @@ Ga naar het tab **Instellingen** -> **Add-ons** -> **Add-on winkel** -> **Zoek n
 ---
 
 **Pin-out van de microcontroller:**  
+
 <img src="https://github.com/user-attachments/assets/d32e71e5-2175-4ef9-8189-3dc476b0c427" style="width: 400px; height: auto;">
 
 
