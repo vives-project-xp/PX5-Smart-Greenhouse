@@ -638,7 +638,7 @@ Wil je jouw dashboard bekijken op je telefoon of tablet?
 4. Vink de optie weergeven in zijbalk aan.
 5. Herstart Home Assistant.
 6. Daarna zie je in de zijbalk file editor.
-7. Gebruik dan deze [Configuratie code](/Software/ConfigFile.md) en plak dit in de file editor.
+7. Gebruik dan deze [Configuratie code](/Software/configuration.yaml) en plak dit in de file editor.
    
 ## Onze raw configuration file
 
@@ -647,7 +647,7 @@ Je doet dit door de raw configuration editor te gebruiken.
 1. Druk op het potlood rechtsboven.
 2. Druk daarna op de 3 punten.
 3. Selecteer raw configuration editor.
-4. Plak dan deze code in de raw configuration editor.--> Code voor [Dashboard](/Software/Dashboard.md)
+4. Plak dan deze code in de raw configuration editor.--> Code voor [Dashboard](/Software/dashboard.yaml)
 5. Je zult wel de entiteiten moeten aanpassen.
 6. Ga terug naar instellingen en druk op 3 puntjes rechtsboven.
 7. Druk op herlaad YAML-configuratie.
