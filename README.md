@@ -36,7 +36,7 @@ Het systeem maakt gebruik van zowel hardware als software:
 
 - **Sensoren**: om de omgevingsparameters zoals temperatuur, luchtvochtigheid, bodemvocht en lichtintensiteit te meten.
   
-- **Microcontrollers**: zoals de Raspberry Pi en de Esp32 om de gegevens te verzamelen en te verwerken.
+- **Microcontrollers**: zoals de Raspberry Pi en de ESP32 om de gegevens te verzamelen en te verwerken.
 
 - **Pompen**: om automatisch water aan de planten te geven bij droogte.
 
