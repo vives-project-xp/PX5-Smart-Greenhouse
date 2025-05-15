@@ -42,6 +42,9 @@ De rookmelder maakt gebruik van het Zigbee-protocol. Dit protocol staat bekend o
 ### Bereik  
 Het draadloze bereik van deze sensor is 8 meter, wat betekent dat hij gemakkelijk verbinding kan maken met andere Zigbee-apparaten binnen dit bereik.  
 
+## Link
+[Frient Rookmelder](https://www.robbshop.nl/frient-rookmelder-intelligent-smoke-alarm-zigbee)
+
 ---
 
 ## Bewegingssensor 
