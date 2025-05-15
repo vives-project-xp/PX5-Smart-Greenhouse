@@ -283,7 +283,19 @@ Wil je jouw dashboard bekijken op je telefoon of tablet?
 - Installeer de **Home Assistant Companion App** (Android/iOS).
 - Gebruik **Nabu Casa**, **DuckDNS** of **Tailscale** voor externe toegang.
 
-## Stap 9: Onze raw configuration file
+## Ons Dashboard
+## Onze configuration file
+
+1. Ga naar instellingen.
+2. Ga Add-ons.
+3. Zoek de add on file editor en installeer deze.
+4. Vink de optie weergeven in zijbalk aan.
+5. Herstart Home Assistant.
+6. Daarna zie je in de zijbalk file editor.
+7. Gebruik dan deze (/Software/ConfigFile.md) en plak dit in de file editor.
+   
+## Onze raw configuration file
+
 Wil je ons dashboard gebruiken op Home Assistant gebruik dan dit stappenplan.
 Je doet dit door de raw configuration editor te gebruiken. 
 1. Druk op het potlood rechtsboven.
@@ -294,6 +306,7 @@ Je doet dit door de raw configuration editor te gebruiken.
 6. Ga terug naar instellingen en druk op 3 puntjes rechtsboven.
 7. Druk op herlaad YAML-configuratie.
 7. Om het watervat werkend te krijgen zul je ook deze helpers moeten instellen.![image](https://github.com/user-attachments/assets/ee7db8eb-0936-46d6-b6c9-4d98619aee1a)
+
 ### Helpers aanmaken voor het vat
 1. Ga naar Instellingen.
 2. Ga naar apparaten en diensten.
