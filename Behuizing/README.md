@@ -7,7 +7,7 @@ Om de Mini-PC en Raspberry Pi 5 in de fietsenstalling te kunnen plaatsen, moeste
 
 Voor ons eerste idee dachten we eraan om zelf een behuizing te maken met een 3D-printer. Dit bracht echter enkele problemen met zich mee, zoals: onvoldoende waterdichtheid, beperkte stevigheid en de beperking dat de 3D-printer niet groot genoeg kan printen, waardoor de constructie niet stevig zou zijn.
 
-D
+Deze 
 
 <img src="3D tekening.png" style="width: 400px; height: auto;" alt="3D-Print">
 
