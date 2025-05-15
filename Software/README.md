@@ -166,18 +166,18 @@ Voor meer informatie over hoe je sensoren moet toevoegen, kan dit onderste besta
 
 ## Voorbeelden
 
-## Eigen sensoren toevoegen via ESP32
+### Eigen sensoren toevoegen via ESP32
 
 
-## Inhoudstafel
+### Inhoudstafel
 - [BME280 (milieu-sensor)](#installatie-van-de-bme280)
 - [CO₂-sensor MH-Z19](#Installatie-van-de-CO2-sensor-MH-Z19)
 
 ---
 
-## Installatie van de BME280
+### Installatie van de BME280
 
-### Benodigdheden:
+#### Benodigdheden:
 - Microcontroller: **ESP32-C3-DevKitC-02**
 - BME280 sensor (I²C-variant)
 - Arduino IDE  
@@ -189,7 +189,7 @@ Voor meer informatie over hoe je sensoren moet toevoegen, kan dit onderste besta
 
 **Pin-out van de microcontroller:** 
 <img src=".\ESP32C3.png" style="width: 400px; height: auto;">
-### Verbinding:
+#### Verbinding:
 
 | **BME280 Pin** | **ESP32-C3 GPIO** | **Naam op bord** | **Opmerking**               |
 |----------------|-------------------|------------------|-----------------------------|
@@ -201,12 +201,12 @@ Voor meer informatie over hoe je sensoren moet toevoegen, kan dit onderste besta
 
 
 
-### 1) ESPHome installeren
+#### 1) ESPHome installeren
 Ga naar het tab **Instellingen** -> **Add-ons** -> **Add-on winkel** -> **Zoek naar ESPHome Home Device Builder** 
 - Druk op "**Installeren**" en zet de optie "**Start bij opstarten aan**
 - Herstart Home Assistant
 
-### 2) ESP32 toevoegen aan ESPHome
+#### 2) ESP32 toevoegen aan ESPHome
 - Ga naar het tab genaamd "**ESPHomeBuilder**"
 - Druk op "**+ New Device**"
 - Geef het apparaat een naam en kies bij device type de "**ESP32-C3**"
@@ -215,7 +215,7 @@ Ga naar het tab **Instellingen** -> **Add-ons** -> **Add-on winkel** -> **Zoek n
 - Druk op "**connect**"
 - Nu is je "**ESP32**" verbonden
 
-### 3) Pas de ESP32 code aan 
+#### 3) Pas de ESP32 code aan 
 - Druk op de knop **edit** bij ESPHome van je ESP32
 - Pas je code aan voor je wifi netwerk en pas deze regel aan: 
 
@@ -225,7 +225,7 @@ Ga naar het tab **Instellingen** -> **Add-ons** -> **Add-on winkel** -> **Zoek n
   password: JouwWifiWacthwoord
   ````
 -  
-### 4) Sensor toevoegen
+#### 4) Sensor toevoegen
 
 - Voeg de code toe via de "**edit**" button
 - Code :
@@ -251,9 +251,9 @@ Ga naar het tab **Instellingen** -> **Add-ons** -> **Add-on winkel** -> **Zoek n
 
 
 
-## Installatie van de CO2-sensor MH-Z19
+### Installatie van de CO2-sensor MH-Z19
 
-### Benodigdheden:
+#### Benodigdheden:
 - Microcontroller: **ESP32-C3-DevKitC-02**
 - CO₂-sensor **MH-Z19**
 - Arduino IDE  
@@ -263,9 +263,12 @@ Ga naar het tab **Instellingen** -> **Add-ons** -> **Add-on winkel** -> **Zoek n
 ---
 
 **Pin-out van de microcontroller:**  
-<img src=".\ESP32C3.png" style="width: 400px; height: auto;">
+<img src="https://github.com/user-attachments/assets/d32e71e5-2175-4ef9-8189-3dc476b0c427" style="width: 400px; height: auto;">
 
-### Verbinding:
+
+
+
+#### Verbinding:
 
 | **MH-Z19 Pin** | **ESP32-C3 GPIO** | **Naam op bord** | **Opmerking**                         |
 |----------------|-------------------|------------------|---------------------------------------|
@@ -276,14 +279,14 @@ Ga naar het tab **Instellingen** -> **Add-ons** -> **Add-on winkel** -> **Zoek n
 
 ---
 
-### 1) ESPHome installeren
+#### 1) ESPHome installeren
 Ga naar het tab **Instellingen** → **Add-ons** → **Add-on winkel** → **Zoek naar ESPHome Home Device Builder**  
 - Druk op "**Installeren**" en zet de optie "**Start bij opstarten**" aan  
 - Herstart Home Assistant
 
 ---
 
-### 2) ESP32 toevoegen aan ESPHome
+#### 2) ESP32 toevoegen aan ESPHome
 - Ga naar het tab genaamd "**ESPHomeBuilder**"
 - Druk op "**+ New Device**"
 - Geef het apparaat een naam en kies bij device type de "**ESP32-C3**"
