@@ -46,7 +46,7 @@ Het systeem maakt gebruik van zowel hardware als software:
 ## De Serre en het Dashboard
 
 <div style="display: flex; gap: 10px;">
-   <img src="https://github.com/user-attachments/assets/ed7a53dc-a937-4934-b67c-e634f356960d" height="300">
+   <img src="images/serre.png" height="300">
     <img src="images/dashboard.png" height="300">
   
 </div>
