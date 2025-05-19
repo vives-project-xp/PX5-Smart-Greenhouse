@@ -162,7 +162,7 @@ ota:
 ---
 Voor meer informatie over hoe je sensoren moet toevoegen, kan dit onderste bestand je helpen.
 
-[Sensoren Toevoegen.pdf](https://github.com/user-attachments/files/19482208/Sensoren.Toevoegen.pdf.pdf)
+[Sensoren Toevoegen.pdf](https://github.com/user-attachments/files/19482208/Sensoren.Toevoegen.pdf)
 
 
 
