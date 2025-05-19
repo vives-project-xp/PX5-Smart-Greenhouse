@@ -162,7 +162,7 @@ ota:
 ---
 Voor meer informatie over hoe je sensoren moet toevoegen, kan dit onderste bestand je helpen.
 
-[Sensoren Toevoegen.pdf](https://github.com/user-attachments/files/19482208/Sensoren.Toevoegen.pdf)
+[Sensoren Toevoegen.pdf](https://github.com/user-attachments/files/19482208/Sensoren.Toevoegen.pdf.pdf)
 
 
 
@@ -193,7 +193,7 @@ Voor meer informatie over hoe je sensoren moet toevoegen, kan dit onderste besta
 
 **Pin-out van de microcontroller:** 
 
-<img src="https://github.com/user-attachments/assets/d32e71e5-2175-4ef9-8189-3dc476b0c427" style="width: 400px; height: auto;">
+<img src="/images/esp_overzicht.png" style="width: 400px; height: auto;">
 
 #### Verbinding:
 
@@ -270,7 +270,7 @@ Ga naar het tab **Instellingen** -> **Add-ons** -> **Add-on winkel** -> **Zoek n
 
 **Pin-out van de microcontroller:**  
 
-<img src="https://github.com/user-attachments/assets/d32e71e5-2175-4ef9-8189-3dc476b0c427" style="width: 400px; height: auto;">
+<img src="/images/esp_overzicht.png" style="width: 400px; height: auto;">
 
 
 
