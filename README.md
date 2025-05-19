@@ -57,8 +57,7 @@ Het systeem maakt gebruik van zowel hardware als software:
 
 <div style="display: flex; gap: 10px;">
    <img src="images/posterV1.png" height="500" width="auto">
-    <img src="images/posterV2.png" height="500" width="auto">
-    <img src="images/posterV3.png" height="500" width="auto">
+   <img src="images/posterV3.png" height="500" width="auto">
 </div>
 
 
