@@ -23,7 +23,7 @@ In dit document vind je informatie over de gebruikte hardware zoals de prijs, he
 
 Sensoren spelen een belangrijke rol in huisbeveiliging en domotica. Of het nu gaat om het detecteren van rook of beweging, deze slimme apparaten kunnen bijdragen aan een veiliger en comfortabeler huis. Hieronder worden twee sensoren van Frient besproken, een Deens merk dat bekendstaat om zijn betrouwbare en innovatieve technologie.  
 
-## Rooksensor 
+## Rooksensor (Frient Smoke Alarm)
 
 <img src="https://github.com/user-attachments/assets/2870ae2b-5953-4684-929c-a64927c714e2" width="250">  
 
@@ -47,7 +47,7 @@ Het draadloze bereik van deze sensor is 8 meter, wat betekent dat hij gemakkelij
 
 ---
 
-## Bewegingssensor 
+## Bewegingssensor (Frient Motion sensor Pro)
 
 <img src="https://github.com/user-attachments/assets/1c434ce7-bffd-4fd9-abc0-3e530202c8e9" width="250">  
 
@@ -81,7 +81,7 @@ Dankzij deze functies is de motion sensor niet alleen een beveiligingssensor, ma
 
 ---
 
-## Vochtigheidssensor
+## Vochtigheidssensor (Frient Smart Humidity Sensor)
 
 <img src = "https://github.com/user-attachments/assets/b973c339-6dbf-41c5-bfa3-16e9a8249a69" width ="250">
 
@@ -109,7 +109,7 @@ Naast het meten van de luchtvochtigheid beschikt deze sensor ook over een ingebo
 
 ---
 
-## Waterleksensor
+## Waterleksensor (De Frient Water Leak Detector)
 
 <img src = "https://github.com/user-attachments/assets/50724709-b60a-47e0-a7bb-1d78bdadd7b3" width ="250">
 
@@ -139,7 +139,7 @@ De Frient Water Leak Detector wordt geleverd met een extra probe, die apart is b
 
 ---
 
-## Bodemvochtigheidssensor
+## Bodemvochtigheidssensor (Immax NEO 07523L)
 
 <img src = "https://github.com/user-attachments/assets/fe0d9fe7-ab4b-406f-b521-663b84d6f2a9" width ="250">
 
@@ -167,7 +167,7 @@ Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtem
 
 ---
 
-## Ultrasonesenor
+## Ultrasonesenor (HC-SR04)
 <img src = "https://github.com/user-attachments/assets/e4cac565-319c-44f0-8893-1a36c13f56a0" width ="250">
 
 **Prijs**
@@ -208,22 +208,34 @@ De HC-SR04 zendt een ultrasoon geluidssignaal uit en meet de tijd totdat het sig
 ### Zigbee-dongle
 - **Conbee II Zigbee USB-Gateway**
 - Deze USB-dongle zorgt ervoor dat we de zigbee sensoren kunnen vinden en in Home-Assistant gebruiken.
+
+## Link
+[Conbee 2](https://www.robbshop.nl/conbee-iii-deconz-zigbee-usb-dongle?utm_source=google&utm_medium=cpc&utm_id=17886090674&utm_term=&utm_content=&gad_source=1&gad_campaignid=17878488618&gclid=Cj0KCQjwoZbBBhDCARIsAOqMEZXdtkYSkDc5yiwdp0VfvB8TBSuas6pTQ2n1NN89PCOdtTBp_nLnqowaAhrvEALw_wcB)
+
 ---
 ### Raspberry PI 5
 - **Raspberry PI 5 8GB**
 - **OS**: Raspberry PI OS
 - De raspberry pi dient als een mini router voor in de serre. Extra uitleg en hoe we dit doen in de netwerk sectie.
+
+
+## Link
+[Raspberry Pi 5](https://www.kiwi-electronics.com/nl/raspberry-pi-5-8gb-11580?country=BE&gad_source=1&gad_campaignid=292887425&gclid=Cj0KCQjwoZbBBhDCARIsAOqMEZVC8HO3ejd82HtUgTYnqBIbDYJkEdK7Hj4c6GZDAywRIse9Jk2WQUYaAvcYEALw_wcB)
+
+  
 ---
 ### Mini-PC
 - **Dell Optiplex 7040M**
 - **OS**: Home Assistant OS
 - De mini-pc is ons centrale systeem. Op deze pc draait Home Assistant, waarop de Zigbee-dongle alle signalen ontvangt. Deze mini-pc voorziet ook de Raspberry Pi van stroom.
 
+## Link
+[Mini-PC](https://www.refurbed.be/p/dell-optiplex-7040-micro-usff-in/8221/?co=be&utm_cluster=gradeA&utm_content=dell-optiplex-7040-micro-usff-in-8221&utm_group=dell-optiplex-7040-micro-usff-in&ad_price199.99&utm_campaign=BE%20-%20Standard%20Shopping%20-%20No%20Index&utm_medium=cpc&utm_source=google&gad_source=1&gad_campaignid=21358050415&gclid=Cj0KCQjwoZbBBhDCARIsAOqMEZX7NjpKYuNmXpWWmKFazI2aSMVdborHMIGc4x7Bx4Nd_x6lI34xLCcaAqnXEALw_wcB)
+
 ---
 
 ## ESP32-C6-Mini-1
 <img src = "https://github.com/user-attachments/assets/bf3de0bb-26bb-4b97-97e8-9fd751d301a8" width ="250">
-
 
 ### Prijs
 We hebben de ESP32 aangekocht voor ongeveer €15.
@@ -241,6 +253,11 @@ De ESP32 is van het merk Espressif.
 - Zigbee
 - Bluetooth
 - Thread
+
+
+## Link
+[ESP32-C6](https://www.tinytronics.nl/nl/development-boards/microcontroller-boards/met-wi-fi/espressif-esp32-c6-devkitm-1)
+
 
 ## Motoren
 
@@ -308,3 +325,8 @@ void loop() {
 
   delay(2000);
 }
+
+
+## Link
+[Linear Actuator](https://benl.rs-online.com/web/p/electric-linear-actuators/7643471?cm_mmc=BE-PPC-DS3A-_-google-_-DSA_BENL_NL_Mechanical+Power+Transmission_Index-_-Electric+Linear+Actuators%7C+Products-_-DYNAMIC+SEARCH+ADS&matchtype=&dsa-1656521071435&gclsrc=aw.ds&gad_source=1&gad_campaignid=17139240713&gclid=Cj0KCQjwoZbBBhDCARIsAOqMEZUrzvVQtUCTvdmbcm09WxXfRwWLBmkHLASr9gGKvwVIaodJ89KNEZwaAqriEALw_wcB)
+

@@ -48,6 +48,7 @@ Het systeem maakt gebruik van zowel hardware als software:
 <div style="display: flex; gap: 10px;">
    <img src="https://github.com/user-attachments/assets/ed7a53dc-a937-4934-b67c-e634f356960d" height="300">
     <img src="images/dashboard.png" height="300">
+  
 </div>
 
 
@@ -57,6 +58,7 @@ Het systeem maakt gebruik van zowel hardware als software:
 <div style="display: flex; gap: 10px;">
    <img src="images/posterV1.png" height="500" width="auto">
     <img src="images/posterV2.png" height="500" width="auto">
+    <img src="images/posterV3.png" height="500" width="auto">
 </div>
 
 
@@ -72,7 +74,8 @@ Het systeem maakt gebruik van zowel hardware als software:
 | [**Behuizing**](/Behuizing) | Info over de behuizing van het project   |
 | [**Datasheets**](/Datasheets) | Technische fiches van de gebruikte producten |
 | [**Netwerk**](/Networking)  | Details over het gebruikte netwerk       |
-
+| [**Research**](/Research)   | De onderdelen die we onderzocht hebben        |
+| [**Advertisement**](/Advertisement)   | Onze gemaakte affiches en instagram posts        |
 
 
 
