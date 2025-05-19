@@ -25,7 +25,7 @@ Sensoren spelen een belangrijke rol in huisbeveiliging en domotica. Of het nu ga
 
 ## Rooksensor (Frient Smoke Alarm)
 
-<img src="https://github.com/user-attachments/assets/2870ae2b-5953-4684-929c-a64927c714e2" width="250">  
+<img src="/images/rookmelder.png" width="250">  
 
 ### Prijs  
 De sensor heeft een prijs van €48,95. Dit maakt het een betaalbare en betrouwbare keuze voor rookdetectie in huis.  
@@ -49,7 +49,7 @@ Het draadloze bereik van deze sensor is 8 meter, wat betekent dat hij gemakkelij
 
 ## Bewegingssensor (Frient Motion sensor Pro)
 
-<img src="https://github.com/user-attachments/assets/1c434ce7-bffd-4fd9-abc0-3e530202c8e9" width="250">  
+<img src="/images/bewegingssensor.png" width="250">  
 
 ### Prijs  
 Deze sensor is verkrijgbaar voor €33,95, een aantrekkelijke prijs voor een bewegingssensor met extra functionaliteiten.  
@@ -83,7 +83,7 @@ Dankzij deze functies is de motion sensor niet alleen een beveiligingssensor, ma
 
 ## Vochtigheidssensor (Frient Smart Humidity Sensor)
 
-<img src = "https://github.com/user-attachments/assets/b973c339-6dbf-41c5-bfa3-16e9a8249a69" width ="250">
+<img src="/images/vochtigheidssensor.png" width="250">
 
 ### Prijs
 De Frient Smart Humidity Sensor is verkrijgbaar voor een prijs van €26,95. Dit maakt het een betaalbare optie voor wie op zoek is naar een betrouwbare luchtvochtigheidssensor.
@@ -111,7 +111,7 @@ Naast het meten van de luchtvochtigheid beschikt deze sensor ook over een ingebo
 
 ## Waterleksensor (De Frient Water Leak Detector)
 
-<img src = "https://github.com/user-attachments/assets/50724709-b60a-47e0-a7bb-1d78bdadd7b3" width ="250">
+<img src="/images/waterleksensor.png" width="250">
 
 ### Prijs
 De Frient Water Leak Detector is te koop voor €41,95. Dit is een iets hogere prijsklasse, maar de extra functies maken het een waardevolle investering voor lekkagedetectie.
@@ -141,7 +141,7 @@ De Frient Water Leak Detector wordt geleverd met een extra probe, die apart is b
 
 ## Bodemvochtigheidssensor (Immax NEO 07523L)
 
-<img src = "https://github.com/user-attachments/assets/fe0d9fe7-ab4b-406f-b521-663b84d6f2a9" width ="250">
+<img src="/images/bodemvochtigheidssensor.png" width="250">
 
 ### Prijs
 De Immax NEO 07523L is verkrijgbaar voor een prijs van €38,30. Dit plaatst de sensor in het middensegment van de prijsklasse, maar gezien de veelzijdige functionaliteiten is dit een redelijk bedrag.
@@ -168,7 +168,7 @@ Naast het meten van de bodemvochtigheid beschikt de sensor ook over een bodemtem
 ---
 
 ## Ultrasonesenor (HC-SR04)
-<img src = "https://github.com/user-attachments/assets/e4cac565-319c-44f0-8893-1a36c13f56a0" width ="250">
+<img src="/images/Ultrasonesensor.jpg" width="250">
 
 **Prijs**
 
@@ -235,7 +235,7 @@ De HC-SR04 zendt een ultrasoon geluidssignaal uit en meet de tijd totdat het sig
 ---
 
 ## ESP32-C6-Mini-1
-<img src = "https://github.com/user-attachments/assets/bf3de0bb-26bb-4b97-97e8-9fd751d301a8" width ="250">
+<img src="/images/esp32-c6.png" width="250">
 
 ### Prijs
 We hebben de ESP32 aangekocht voor ongeveer €15.
