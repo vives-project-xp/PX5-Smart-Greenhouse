@@ -1,0 +1,554 @@
+# Full YAML configuration for a Home Assistant dashboard
+# This configuration is for a smart greenhouse dashboard
+views:
+  - title: Algemeen
+    sections:
+      - type: grid
+        cards:
+          - type: heading
+            icon: mdi:greenhouse
+            heading_style: title
+            heading: Omgeving Serre
+          - type: gauge
+            entity: sensor.vochtigheid_sensor_humidity
+            min: 0
+            unit: '%'
+            severity:
+              green: 0
+              yellow: 50
+              red: 80
+            needle: true
+            max: 100
+            name: Luchtvochtigheid
+          - graph: line
+            type: sensor
+            entity: sensor.vochtigheid_sensor_temperature
+            detail: 1
+            grid_options:
+              columns: 6
+              rows: 2
+            name: Temperatuur
+          - graph: line
+            type: sensor
+            detail: 2
+            entity: sensor.motion_sensor_illuminance
+            name: Licht
+          - type: heading
+            icon: mdi:security
+            heading_style: title
+            heading: Beveiliging
+          - type: custom:mushroom-entity-card
+            entity: binary_sensor.smoke_sensor_smoke
+          - type: custom:mushroom-entity-card
+            entity: binary_sensor.waterlek_sensor_water_leak
+          - type: tile
+            entity: binary_sensor.motion_sensor_occupancy
+          - type: heading
+            icon: mdi:water
+            heading_style: title
+            heading: Watervat
+          - type: tile
+            entity: sensor.vat_afstand
+            features_position: bottom
+            vertical: false
+            grid_options:
+              columns: 12
+              rows: 1
+          - type: tile
+            entity: sensor.inhoud_vat_dynamisch
+            features_position: bottom
+            vertical: false
+            grid_options:
+              columns: 12
+              rows: 1
+      - type: grid
+        cards:
+          - type: heading
+            heading: Statistieken bodem
+            heading_style: title
+            icon: mdi:sprout
+          - type: gauge
+            entity: sensor.soil_sensor_soil_moisture
+            needle: true
+            severity:
+              green: 48
+              yellow: 85
+              red: 95
+            theme: my_custom_theme
+            name: Bodemvochtigheid
+          - graph: line
+            type: sensor
+            entity: sensor.soil_sensor_temperature
+            detail: 2
+            grid_options:
+              columns: 12
+              rows: 2
+            theme: my_custom_theme
+            name: Bodemtemperatuur
+          - type: heading
+            icon: mdi:weather-lightning-rainy
+            heading_style: title
+            heading: Regen
+          - type: tile
+            entity: sensor.maximale_regen_1d
+            name: Maximale Regen
+            features_position: bottom
+            vertical: false
+          - type: tile
+            entity: sensor.minimale_regen_1d
+            name: Minimale regen
+            features_position: bottom
+            vertical: false
+          - type: tile
+            entity: sensor.regenkans_1d
+          - type: tile
+            entity: sensor.regen_laatste_24u
+            name: Regen 24u
+            features_position: bottom
+            vertical: false
+          - type: heading
+            icon: mdi:pump
+            heading: Pompen
+            heading_style: title
+          - type: tile
+            entity: automation.pomp_aanzetten
+            features_position: bottom
+            vertical: false
+            grid_options:
+              columns: 12
+              rows: 2
+      - type: grid
+        cards:
+          - type: heading
+            icon: mdi:cloud
+            heading: Weersvoorspelling
+            heading_style: title
+          - show_current: true
+            show_forecast: true
+            type: weather-forecast
+            entity: weather.forecast_thuis
+            forecast_type: daily
+            secondary_info_attribute: wind_speed
+          - show_current: false
+            show_forecast: true
+            type: weather-forecast
+            entity: weather.forecast_thuis
+            forecast_type: hourly
+            secondary_info_attribute: wind_speed
+            forecast_slots: 8
+          - type: entities
+            title: Zon
+            entities:
+              - entity: sensor.sun_next_dawn
+                name: Zonsopgang
+                style: ''
+              - entity: sensor.sun_next_dusk
+                name: Zonsondergang
+              - entity: sensor.sun_next_midnight
+                name: Middernacht
+                icon: mdi:moon-waning-crescent
+    background:
+      opacity: 30
+      alignment: center
+      size: cover
+      repeat: repeat
+      attachment: scroll
+      image: /api/image/serve/5ecab470aff2da69c0d2209d9d9be188/original
+    cards: []
+    type: sections
+    max_columns: 4
+    icon: ''
+    header:
+      type: markdown
+      text_only: true
+      content: |-
+        <div style="color: #234F1E; font-size: 28px; font-weight: bold;">
+          Welkom, {{ user }}! 🌿
+        </div>
+
+        <div style="color: #4A6471; font-size: 18px;">
+          Het is momenteel: {{ now().strftime('%H:%M:%S') }}
+        </div>
+
+        <div style="color: #3E8E41; margin-top: 10px;">
+          Veel plezier in je smart greenhouse dashboard! 🌱
+        </div>
+      card:
+        type: markdown
+        text_only: true
+        content: |
+
+          # 🌿 Welkom in de greenhouse! 
+
+          **De huidige datum is: {{ now().strftime('%d-%m-%Y') }}**  
+          Veel plezier in het smart greenhouse dashboard! 🌱
+  - type: sections
+    max_columns: 4
+    title: BATTERIJ NIVEAU
+    path: batterij-niveau
+    icon: mdi:battery
+    sections:
+      - type: grid
+        cards:
+          - type: heading
+            icon: mdi:battery
+            heading_style: title
+            heading: Rook sensor
+            grid_options:
+              columns: 6
+              rows: 1
+          - type: heading
+            heading_style: title
+            heading: 'Beweegsensor                                   '
+            grid_options:
+              columns: 6
+              rows: 1
+            icon: mdi:battery
+          - type: tile
+            entity: sensor.smoke_sensor_battery
+          - type: tile
+            entity: sensor.motion_sensor_battery
+          - type: heading
+            icon: mdi:sprout
+            heading_style: title
+            heading: Bodemsensor
+            grid_options:
+              columns: 6
+              rows: 1
+          - type: heading
+            icon: mdi:water-percent
+            heading_style: title
+            heading: Luchtvochtigheid
+            grid_options:
+              columns: 6
+              rows: 1
+          - type: tile
+            entity: sensor.soil_sensor_battery
+          - type: tile
+            entity: sensor.vochtigheid_sensor_battery
+          - type: heading
+            icon: mdi:water
+            heading_style: title
+            heading: Waterleksensor
+          - type: tile
+            entity: sensor.waterlek_sensor_battery
+    header:
+      card:
+        type: markdown
+        text_only: true
+        content: |+
+          # Batterij Niveau
+
+      layout: center
+      badges_position: bottom
+    background:
+      opacity: 20
+      alignment: center
+      size: contain
+      repeat: no-repeat
+      attachment: fixed
+      image: /api/image/serve/09c503132ba1189e1e7fd0637071ccb5/original
+    cards: []
+  - type: sections
+    max_columns: 4
+    title: Bodemsensor
+    path: bodemsensor
+    sections:
+      - type: grid
+        cards:
+          - type: heading
+            heading_style: title
+            heading: Bodemsensor
+            icon: mdi:sprout
+          - type: tile
+            entity: sensor.soil_sensor_battery
+            features_position: bottom
+            vertical: false
+            grid_options:
+              columns: 12
+              rows: 1
+          - type: gauge
+            entity: sensor.soil_sensor_soil_moisture
+            needle: true
+            severity:
+              green: 30
+              yellow: 70
+              red: 80
+            theme: my_custom_theme
+            name: Bodemvochtigheid
+          - graph: line
+            type: sensor
+            entity: sensor.soil_sensor_temperature
+            detail: 2
+            grid_options:
+              columns: 12
+              rows: 2
+            theme: my_custom_theme
+            name: Bodemtemperatuur
+    background:
+      opacity: 49
+      alignment: center
+      size: contain
+      repeat: no-repeat
+      attachment: fixed
+      image: /api/image/serve/9b9dd5646c5aa35df438d4741fdd00d8/original
+    cards: []
+    header:
+      card:
+        type: markdown
+        text_only: true
+        content: |+
+          # Tuya Bodemsensor
+
+      layout: responsive
+      badges_position: bottom
+  - type: sections
+    max_columns: 4
+    title: Beweegsensor
+    path: beweegsensor
+    sections:
+      - type: grid
+        cards:
+          - type: heading
+            heading_style: title
+            heading: Complete Beweegssensor
+            icon: mdi:motion-sensor
+          - type: tile
+            entity: binary_sensor.motion_sensor_occupancy
+            features_position: bottom
+            vertical: false
+            grid_options:
+              columns: 12
+              rows: 1
+          - type: tile
+            entity: sensor.motion_sensor_battery
+            features_position: bottom
+            vertical: false
+            grid_options:
+              columns: 12
+              rows: 1
+          - graph: line
+            type: sensor
+            detail: 2
+            entity: sensor.motion_sensor_illuminance
+            name: Licht
+            grid_options:
+              columns: 12
+              rows: 2
+          - graph: line
+            type: sensor
+            entity: sensor.motion_sensor_temperature
+            detail: 1
+            grid_options:
+              columns: 12
+              rows: 2
+    header:
+      layout: responsive
+      badges_position: bottom
+      card:
+        type: markdown
+        text_only: true
+        content: |2
+           # Frient motion sensor pro
+           
+    icon: ''
+    background:
+      opacity: 35
+      alignment: center
+      size: auto
+      repeat: no-repeat
+      attachment: fixed
+      image: /api/image/serve/869e857acb9e5e58f94729d37a59736d/original
+    cards: []
+  - type: sections
+    max_columns: 4
+    title: Rookmelder
+    path: rookmelder
+    background:
+      opacity: 33
+      alignment: center
+      size: auto
+      repeat: no-repeat
+      attachment: fixed
+      image: /api/image/serve/1c0b7c9c147759f63da1919cce40efa6/original
+    sections:
+      - type: grid
+        cards:
+          - type: heading
+            heading_style: title
+            heading: Brandalarm
+            icon: mdi:fire-alert
+          - type: tile
+            entity: sensor.smoke_sensor_battery
+            features_position: bottom
+            vertical: false
+            grid_options:
+              columns: 12
+              rows: 1
+          - type: tile
+            entity: binary_sensor.smoke_sensor_smoke
+            features_position: bottom
+            vertical: false
+            grid_options:
+              columns: 12
+              rows: 1
+    cards: []
+    header:
+      card:
+        type: markdown
+        text_only: true
+        content: '# Frient smoke detector'
+      layout: responsive
+      badges_position: bottom
+  - type: sections
+    max_columns: 4
+    title: Watersensor
+    path: watersensor
+    background:
+      opacity: 33
+      alignment: center
+      size: contain
+      repeat: no-repeat
+      attachment: fixed
+      image: /api/image/serve/08cf570d91b88cecf117376fb8a69686/original
+    sections:
+      - type: grid
+        cards:
+          - type: heading
+            heading_style: title
+            heading: Water
+            icon: mdi:water
+          - type: tile
+            entity: sensor.waterlek_sensor_battery
+            features_position: bottom
+            vertical: false
+            grid_options:
+              columns: 12
+              rows: 1
+          - type: tile
+            entity: binary_sensor.waterlek_sensor_tamper
+            features_position: bottom
+            name: Water
+            vertical: false
+            grid_options:
+              columns: 12
+              rows: 1
+          - graph: line
+            type: sensor
+            entity: sensor.waterlek_sensor_temperature
+            detail: 1
+            name: Temperatuur
+            grid_options:
+              columns: 12
+              rows: 2
+    cards: []
+    header:
+      card:
+        type: markdown
+        text_only: true
+        content: |
+          # Frient Waterleak sensor
+      layout: responsive
+      badges_position: bottom
+  - type: sections
+    max_columns: 4
+    title: Luchtvochtigheid
+    path: luchtvochtigheid
+    background:
+      opacity: 33
+      alignment: center
+      size: auto
+      repeat: no-repeat
+      attachment: fixed
+      image: /api/image/serve/de3c11549db612e9b64c41c23f3e64f4/original
+    sections:
+      - type: grid
+        cards:
+          - type: heading
+            heading_style: title
+            heading: Vochtigheid
+            icon: mdi:water-percent
+          - type: tile
+            entity: sensor.vochtigheid_sensor_battery
+            features_position: bottom
+            vertical: false
+            grid_options:
+              columns: 12
+              rows: 1
+          - type: gauge
+            entity: sensor.vochtigheid_sensor_humidity
+            min: 0
+            unit: '%'
+            severity:
+              green: 0
+              yellow: 50
+              red: 80
+            needle: true
+            max: 100
+            name: Lucthvochtigheid
+          - graph: line
+            type: sensor
+            entity: sensor.vochtigheid_sensor_temperature
+            detail: 1
+            grid_options:
+              columns: 12
+              rows: 2
+            name: Temperatuur
+    cards: []
+    header:
+      card:
+        type: markdown
+        text_only: true
+        content: '# Frient Luchtvochtigheid'
+      layout: responsive
+      badges_position: bottom
+  - type: sections
+    max_columns: 4
+    title: Watervat
+    path: watervat
+    sections:
+      - type: grid
+        cards:
+          - type: heading
+            heading_style: title
+            heading: Instellingen vat
+          - type: vertical-stack
+            cards:
+              - type: entities
+                title: Vatinstellingen
+                entities:
+                  - entity: input_select.vat_vorm
+                    name: Vorm van het vat
+              - type: conditional
+                conditions:
+                  - entity: input_select.vat_vorm
+                    state: Cilinder
+                card:
+                  type: entities
+                  title: Cilindervormige vatparameters
+                  entities:
+                    - entity: input_number.vat_diameter_cm
+                      name: Diameter (cm)
+                    - entity: input_number.vat_hoogte_cm
+                      name: Hoogte (cm)
+              - type: conditional
+                conditions:
+                  - entity: input_select.vat_vorm
+                    state: Balk
+                card:
+                  type: entities
+                  title: Balkvormige vatparameters
+                  entities:
+                    - entity: input_number.vat_lengte_cm
+                      name: Lengte (cm)
+                    - entity: input_number.vat_breedte_cm
+                      name: Breedte (cm)
+                    - entity: input_number.vat_hoogte_cm
+                      name: Hoogte (cm)
+              - type: entities
+                title: Meetwaarden
+                entities:
+                  - entity: sensor.vat_afstand
+                    name: Gemeten afstand (cm)
+                  - entity: sensor.inhoud_vat_dynamisch
+                    name: Inhoud van het vat (L)
